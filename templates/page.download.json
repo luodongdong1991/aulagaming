@@ -1,0 +1,387 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "All AULA product drivers can be downloaded here.",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "Note: If you experience any issues, please contact our support team.\nThe link may contain some Google-sponsored ads. Please do not click on any unrelated content.",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "button_MCEHyt": {
+          "type": "button",
+          "settings": {
+            "button_style": "button_1",
+            "button_label": "Download",
+            "button_link": "https:\/\/drive.google.com\/drive\/folders\/18Jd6EEPT_U0MugJHM3-x84dD20fio9w0",
+            "margin_top_button": 30,
+            "enable_underline_button": false,
+            "button_color": "#ffffff",
+            "button_border_color": "#000000",
+            "button_bg_color": "#000000",
+            "button_bg_gradient": "",
+            "button_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "button_bg_color_hover": "#ffffff",
+            "button_bg_gradient_hover": "",
+            "button_width": "270px"
+          }
+        },
+        "social_media_rexhJR": {
+          "type": "social_media",
+          "disabled": true,
+          "settings": {
+            "social_spacing_top": 0,
+            "social_spacing_bottom": 0,
+            "social_icon_color": "",
+            "social_icon_background_color": "",
+            "social_icon_background_gradient": "",
+            "social_icon_hover_color": "",
+            "social_icon_background_hover_color": "",
+            "social_icon_background_hover_gradient": "",
+            "social_icon_ring_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "button_MCEHyt",
+        "social_media_rexhJR"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "driver_download_9wAyhb": {
+      "type": "driver-download",
+      "blocks": {
+        "driver_item_LmjifW": {
+          "type": "driver_item",
+          "name": "F75",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/F75.png-3_WH_850x850px.webp",
+            "driver_name": "F75",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F75_Software.exe?v=1756176167",
+            "buy_link": "shopify:\/\/products\/aula-f75"
+          }
+        },
+        "driver_item_fb8WdX": {
+          "type": "driver_item",
+          "name": "F75 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/F75-_.png-6_WH_850x850px.webp",
+            "driver_name": "F75 Pro",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F75_Software.exe?v=1756176167",
+            "buy_link": "shopify:\/\/products\/aula-f75-pro"
+          }
+        },
+        "driver_item_Yc94jK": {
+          "type": "driver_item",
+          "name": "F87\/F87 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/F87__WH_850x850px_d7544680-7c0c-4e34-a118-14558d983b3e.webp",
+            "driver_name": "F87\/F87 Pro",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F87_Software.exe?v=1756176168",
+            "buy_link": "shopify:\/\/products\/aula-f87"
+          }
+        },
+        "driver_item_Q39FUL": {
+          "type": "driver_item",
+          "name": "F99",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/f99-6_WH_850x850px.webp",
+            "driver_name": "F99",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F99_Software.exe?v=1756176167",
+            "buy_link": "shopify:\/\/products\/aula-f99"
+          }
+        },
+        "driver_item_gwxtJX": {
+          "type": "driver_item",
+          "name": "F99\/F99 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/F99pro__WH_850x850px.webp",
+            "driver_name": "F99\/F99 Pro",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F99_Software.exe?v=1756176167",
+            "buy_link": "shopify:\/\/products\/aula-f99-pro"
+          }
+        },
+        "driver_item_BiAfBJ": {
+          "type": "driver_item",
+          "name": "S75 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/1_WH_850x850px_dba7066a-2b05-4d4a-aa07-252708b8bd8d.webp",
+            "driver_name": "S75 Pro",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_S75_Pro_Software.exe?v=1756176170",
+            "buy_link": "shopify:\/\/products\/aula-s75-pro"
+          }
+        },
+        "driver_item_6gkKUj": {
+          "type": "driver_item",
+          "name": "F108",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/77ad065df0cdbabb08cf4475f046f61b_17ae58e1-b8c7-4c1b-b1df-0e502a70d23f.webp",
+            "driver_name": "F108",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F108_Software.exe?v=1756176166",
+            "buy_link": "shopify:\/\/products\/aula-f108"
+          }
+        },
+        "driver_item_FtGUgY": {
+          "type": "driver_item",
+          "name": "F108 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/108pro.png2_WH_850x850px_f070e7c0-25cd-4981-b66c-36768285a365.webp",
+            "driver_name": "F108 Pro",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F108Pro_Software.exe?v=1756176171",
+            "buy_link": "shopify:\/\/products\/aula-f108-pro"
+          }
+        },
+        "driver_item_HKe878": {
+          "type": "driver_item",
+          "name": "WIN60HE Standard",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/w60.png-2_WH_850x850px_f11a996c-a4fc-4fb7-9add-5686089cb196.webp",
+            "driver_name": "WIN60HE",
+            "driver_link": "https:\/\/device.aulacn.com",
+            "buy_link": "shopify:\/\/products\/aula-win60-he"
+          }
+        },
+        "driver_item_JjqjeQ": {
+          "type": "driver_item",
+          "name": "WIN68HE Standard",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/w68.png2.png",
+            "driver_name": "WIN68HE",
+            "driver_link": "https:\/\/device.aulacn.com",
+            "buy_link": "shopify:\/\/products\/aula-win68-he"
+          }
+        },
+        "driver_item_Mp3rzW": {
+          "type": "driver_item",
+          "name": "WIN60HE\/68HE MAX\/Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/w60.png-2_WH_850x850px_f11a996c-a4fc-4fb7-9add-5686089cb196.webp",
+            "driver_name": "WIN60HE MAX\/Pro",
+            "driver_link": "https:\/\/magnet.aulastar.com",
+            "buy_link": ""
+          }
+        },
+        "driver_item_XJrTmd": {
+          "type": "driver_item",
+          "name": "WIN60HE\/68HE MAX\/Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/w68.png2.png",
+            "driver_name": "WIN68HE MAX\/Pro",
+            "driver_link": "https:\/\/magnet.aulastar.com",
+            "buy_link": ""
+          }
+        },
+        "driver_item_Yp648w": {
+          "type": "driver_item",
+          "name": "HERO 68HE",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/h68.png2_WH_850x850px_b1f2235d-8016-4bb3-bc13-b62b1579fa7e.webp",
+            "driver_name": "HERO68HE",
+            "driver_link": "https:\/\/hero.aulastar.com",
+            "buy_link": "shopify:\/\/products\/aula-hero-68-he"
+          }
+        },
+        "driver_item_9YTGBp": {
+          "type": "driver_item",
+          "name": "HERO 84HE",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/84-3_WH_850x850px.webp",
+            "driver_name": "HERO 84HE",
+            "driver_link": "https:\/\/hero.aulastar.com\/",
+            "buy_link": "shopify:\/\/products\/aula-hero84-he"
+          }
+        },
+        "driver_item_4TDU4w": {
+          "type": "driver_item",
+          "name": "F98 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/11_WH_850x850px_3d771e99-1aa2-41ac-8de7-68552e7d4754.webp",
+            "driver_name": "F98 Pro",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_F98Pro_Software.exe?v=1756176508",
+            "buy_link": "shopify:\/\/products\/aula-f98-pro"
+          }
+        },
+        "driver_item_KLhcCL": {
+          "type": "driver_item",
+          "name": "SC580\/580 X",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/SC580X.__WH_1000x1000px.webp",
+            "driver_name": "SC580\/580 X",
+            "driver_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0695\/6987\/1965\/files\/AULA_SC580_Software.exe?v=1756176167",
+            "buy_link": "shopify:\/\/products\/aula-sc580x"
+          }
+        }
+      },
+      "block_order": [
+        "driver_item_LmjifW",
+        "driver_item_fb8WdX",
+        "driver_item_Yc94jK",
+        "driver_item_Q39FUL",
+        "driver_item_gwxtJX",
+        "driver_item_BiAfBJ",
+        "driver_item_6gkKUj",
+        "driver_item_FtGUgY",
+        "driver_item_HKe878",
+        "driver_item_JjqjeQ",
+        "driver_item_Mp3rzW",
+        "driver_item_XJrTmd",
+        "driver_item_Yp648w",
+        "driver_item_9YTGBp",
+        "driver_item_4TDU4w",
+        "driver_item_KLhcCL"
+      ],
+      "name": "键鼠驱动下载",
+      "settings": {
+        "section_title": "Keyboard & Mouse Driver Download"
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_c6QRte": {
+          "type": "paragraph",
+          "settings": {
+            "title": "key",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Presale",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_c6QRte",
+        "paragraph_B8NLYi"
+      ],
+      "disabled": true,
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "FAQs",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, please just send it to example@domain.com.",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "Contact Support",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": true,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "driver_download_9wAyhb",
+    "faqs_AkVQ67"
+  ]
+}

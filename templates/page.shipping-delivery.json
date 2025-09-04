@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping Time",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "<p style=\"margin-bottom: 16px;\">\n  During weekdays (Monday to Friday), we process orders and hand them over to the logistics service provider every afternoon at 4:00 PM (UTC +8). If it's a weekend or holiday, we will complete the processing within three days.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  We have warehouses in multiple countries and regions, including Australia, the USA, the UK, Germany, the Czech Republic, Hong Kong, and China mainland. We will optimize shipping based on product availability and package distribution. At present, our official website is only open to the US market. Of course, we will soon open to other markets around the world.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  <strong>Note:<\/strong> To expedite shipping, some packages may be dispatched directly from our AMZ warehouse if the product is in stock there. Please note that there may be a slight delay in tracking information updates due to handling time and time zone differences.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  The shipping time depends on the country and region you are located in, and typically, delivery of the package is completed within 3–7 days. In case of out-of-stock situations requiring adjustments, etc., we guarantee that the longest delivery time will not exceed fifteen days.\n<\/p>",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "button_MCEHyt": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_style": "button_1",
+            "button_label": "Download",
+            "button_link": "https:\/\/drive.google.com\/drive\/folders\/18Jd6EEPT_U0MugJHM3-x84dD20fio9w0",
+            "margin_top_button": 30,
+            "enable_underline_button": false,
+            "button_color": "#ffffff",
+            "button_border_color": "#000000",
+            "button_bg_color": "#000000",
+            "button_bg_gradient": "",
+            "button_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "button_bg_color_hover": "#ffffff",
+            "button_bg_gradient_hover": "",
+            "button_width": "270px"
+          }
+        },
+        "social_media_rexhJR": {
+          "type": "social_media",
+          "disabled": true,
+          "settings": {
+            "social_spacing_top": 0,
+            "social_spacing_bottom": 0,
+            "social_icon_color": "",
+            "social_icon_background_color": "",
+            "social_icon_background_gradient": "",
+            "social_icon_hover_color": "",
+            "social_icon_background_hover_color": "",
+            "social_icon_background_hover_gradient": "",
+            "social_icon_ring_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "button_MCEHyt",
+        "social_media_rexhJR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "",
+            "question_1": "Shipping Costs",
+            "answer_1": "<p style=\"margin-bottom: 16px;\">\n  We offer free shipping service mostly for all products in the AULAGAMING store.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  For the major regions of the United States that are currently open to the market, we cover all the freight charges for the goods.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  For other international markets to be opened up in the future, for some remote countries and regions where shipping costs are high, it results in a loss for our business. In such cases, we need you to supplement the shipping costs accordingly. Examples of countries include Réunion, Kazakhstan, Greece, Colombia, Costa Rica, Switzerland, etc. For the United States, remote areas such as Alaska and Hawaii are not eligible for free shipping.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  The additional shipping fee is automatically calculated by the system and will be displayed along with the calculated results after you fill in the shipping address. The additional shipping fee ranges from $19.99 to $29.99 (depending on your country and region).\n<\/p>",
+            "question_2": "About Customs Duties",
+            "answer_2": "<p style=\"margin-bottom: 16px;\">\n  By default, we use 4PX logistics for the first leg of the shipment, which saves you time and customs duties. For the final leg of the shipment, we collaborate with logistics providers such as USPS, DHL, FEDX, DPD, EMS, and local postal services.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  The products you purchase from our store are duty-free mostly, and we will cover the customs duties in most countries.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  However, if you request us to use another logistics provider, you will need to assist with customs clearance, be responsible for customs duties, and bear the additional logistics costs.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  If the package is returned due to the buyer's failure to cooperate with customs clearance, the buyer will be responsible for the associated handling fees, which will be determined based on the order amount.\n<\/p>",
+            "question_3": "Order Tracking",
+            "answer_3": "<p style=\"margin-bottom: 16px;\">\n  Once we have processed your order and handed it over to the logistics provider, the system will send you an email notifying you that your order is on its way. The email will contain a tracking number and a tracking link. You can click on the link to track the shipping progress. When your package is in transit, our system will continuously track it and automatically notify you of its status via email until you receive it.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  If you haven't received the email, it may have been mistakenly identified as spam by your email provider. Alternatively, you can contact us for assistance with tracking.\n<\/p>",
+            "question_4": "About lost package",
+            "answer_4": "<p style=\"margin-bottom: 16px;\">\n  According to the logistics information, if the package is lost or not delivered, please don't be anxious — we will try our best to retrieve the package for you.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  (1) If it is lost in transit, we will re-ship a new package to you. All costs will be borne by us.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  However, if the package is returned and destroyed due to being stored locally for too long, the customer will be responsible for the loss, and no refund will be issued. However, if the customer agrees to pay the shipping fee, which is approximately $15–20, we will consider resending the package.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  (2) If the logistics service provider system shows that the package has been delivered (including placed in the parcel locker, delivered near the front door or porch, or in a safe place) and the package is lost, please try the following ways to retrieve the package:\n<\/p>\n\n<ul style=\"margin-bottom: 16px;\">\n  <li>Communicate with family members, who may have received it.<\/li>\n  <li>Contact the logistics company and ask them the exact location of placement.<\/li>\n  <li>Check the security camera nearby at the time of delivery.<\/li>\n  <li>If still not found, please call the police or contact the logistics company to file a claim.<\/li>\n<\/ul>",
+            "question_5": "Regarding Incorrect Shipping Address",
+            "answer_5": "<p style=\"margin-bottom: 16px;\">\n  If you have provided an incorrect shipping address, please promptly contact our customer service (email: <a href=\"mailto:support@aulagaming.com\">support@aulagaming.com<\/a>). Usually, within one business day, we can intercept the shipment and correct the delivery information.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  However, once the shipment has been dispatched, we are unable to modify the shipping address. You will need to proactively contact the local postal service to address the issue. If there are address discrepancies or difficulties contacting the recipient during the final delivery, the postal service may return the package or damage the package. In this case, the customer will be responsible for the loss.\n<\/p>\n\n<p style=\"margin-bottom: 16px;\">\n  In such cases, we will initiate the following procedures:\n<\/p>\n\n<ol style=\"margin-bottom: 16px;\">\n  <li style=\"margin-bottom: 16px;\">\n    For those returning packages, we will send you multiple emails requesting the correct address and contact information for reshipment from the local origin.<br><br>\n    This process can be complex and may take a considerable amount of time, depending on the local postal service's processing speed.<br>\n    Reshipping will incur additional postage costs, typically amounting to $15 USD, which will be your responsibility.<br>\n    If we are unable to reach you, the goods will be disposed of by the postal service after 15 days. We do not offer refunds or returns in this scenario.\n  <\/li>\n  <li>\n    For those disposed packages, if the mistake is made by the customer's side, we do not offer refunds or returns in this scenario.\n  <\/li>\n<\/ol>",
+            "question_6": "",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_B8NLYi"
+      ],
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": false,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "faqs_AkVQ67"
+  ]
+}

@@ -1,0 +1,498 @@
+
+<style>
+/* Outer container - 100% width */
+.header-container-fluid-{{ section.id }} {
+  width: 100%;
+  background-color: {{ section.settings.header_bg_color | default: '#1a1a1a' }};
+  padding: 0;
+  border-bottom: 1px solid #333;
+  position: relative;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.header-container-fluid-{{ section.id }}.pageheader-solid-{{ section.id }} {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Inner container - max-width 1400px */
+.header-container-{{ section.id }} {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+/* Product title */
+.product-title-{{ section.id }} {
+  color: {{ section.settings.text_color | default: '#ffffff' }};
+  font-size: 18px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+/* Navigation menu */
+.nav-menu-{{ section.id }} {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav-menu-{{ section.id }} a {
+  color: {{ section.settings.text_color | default: '#ffffff' }};
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 0;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-menu-{{ section.id }} a:hover {
+  color: #cccccc;
+}
+
+.nav-menu-{{ section.id }} a.active-{{ section.id }} {
+  color: {{ section.settings.text_color | default: '#ffffff' }};
+}
+
+.nav-menu-{{ section.id }} a.active-{{ section.id }}::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: {{ section.settings.text_color | default: '#ffffff' }};
+}
+ /* 默认箭头向下，无旋转 */
+  .mobile-menu-arrow-{{ section.id }} {
+    transition: transform 0.3s ease;
+  }
+
+  /* 旋转180度，箭头向上 */
+  .mobile-menu-arrow-{{ section.id }}.rotated-{{ section.id }} {
+    transform: rotate(180deg);
+  }
+/* Action buttons */
+.action-buttons-{{ section.id }} {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.btn-{{ section.id }} {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.btn-outline-{{ section.id }} {
+  background-color: transparent;
+  color: {{ section.settings.text_color | default: '#ffffff' }};
+  border: 2px solid {{ section.settings.text_color | default: '#ffffff' }};
+}
+
+.btn-outline-{{ section.id }}:hover {
+  background-color: {{ section.settings.text_color | default: '#ffffff' }};
+  color: {{ section.settings.header_bg_color | default: '#1a1a1a' }};
+}
+
+.btn-primary-{{ section.id }} {
+  background-color: {{ section.settings.text_color | default: '#ffffff' }};
+  color: {{ section.settings.header_bg_color | default: '#1a1a1a' }};
+  border: 2px solid {{ section.settings.text_color | default: '#ffffff' }};
+}
+
+.btn-primary-{{ section.id }}:hover {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
+/* Mobile menu toggle */
+.mobile-menu-toggle-{{ section.id }} {
+  display: none;
+  background: none;
+  border: none;
+  color: {{ section.settings.text_color | default: '#ffffff' }};
+  font-size: 20px;
+  cursor: pointer;
+}
+.mobile-menu-toggle-{{ section.id }} svg{
+  fill: none !important;
+  width: unset !important;
+  height:  unset !important;
+}
+/* Responsive design */
+@media (max-width: 1024px) {
+  .nav-menu-{{ section.id }} {
+    gap: 25px;
+  }
+  
+  .product-title-{{ section.id }} {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container-{{ section.id }} {
+    padding: 12px 15px;
+  }
+  .btn-outline-{{ section.id }} {
+    display: none;
+  }
+
+  .nav-menu-{{ section.id }} {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: {{ section.settings.header_bg_color | default: '#1a1a1a' }};
+    flex-direction: column;
+    gap: 0;
+    padding: 20px;
+    border-top: 1px solid #333;
+  }
+
+  .nav-menu-{{ section.id }}.active-{{ section.id }} {
+    display: flex;
+  }
+
+  .nav-menu-{{ section.id }} a {
+    padding: 15px 0;
+    border-bottom: 1px solid #333;
+    width: 100%;
+  }
+
+  .nav-menu-{{ section.id }} a:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-menu-toggle-{{ section.id }} {
+    display: block;
+  }
+
+  .action-buttons-{{ section.id }} {
+    gap: 10px;
+  }
+
+  .btn-{{ section.id }} {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+
+  .product-title-{{ section.id }} {
+    font-size: 14px;
+    /* max-width: 200px; */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container-{{ section.id }} {
+    padding: 10px 12px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .action-buttons-{{ section.id }} {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .btn-{{ section.id }} {
+    padding: 6px 12px;
+    font-size: 12px;
+    min-width: 80px;
+  }
+}
+</style>
+<div class="header-container-fluid-{{ section.id }} module-banner-{{ section.id }}">
+  <div class="header-container-{{ section.id }}">
+     <button class="mobile-menu-toggle-{{ section.id }}" onclick="window['toggleMobileMenu{{ section.id }}'](this)">
+        <svg class="mobile-menu-arrow-{{ section.id }}" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 9L12 15L18 9" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    <div class="product-title-{{ section.id }}">
+      {{ section.settings.product_title }}
+    </div>
+
+   
+
+    <nav class="nav-menu-{{ section.id }} banner-tab-{{ section.id }}" id="navMenu-{{ section.id }}">
+      {% for block in section.blocks %}
+        {% if block.type == 'nav_item' %}
+          <a href="#{{ block.settings.target_section }}" 
+             class="ps-links-{{ section.id }} {% if forloop.first %}active-{{ section.id }}{% endif %}" 
+             ps-target-section="{{ block.settings.target_section }}"
+             {{ block.shopify_attributes }}>
+            {{ block.settings.nav_text }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+    {% comment %}  <div class="action-buttons-{{ section.id }}">
+      <a href="{{ section.settings.add_to_cart_url }}" class="btn-{{ section.id }} btn-outline-{{ section.id }}">
+        {{ section.settings.add_to_cart_text }}
+      </a>
+      <a href="{{ section.settings.buy_now_url }}" class="btn-{{ section.id }} btn-primary-{{ section.id }}">
+        {{ section.settings.buy_now_text }}
+      </a>
+    </div>{% endcomment %}
+          
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "header-tabs",
+  "settings": [
+    {
+      "type": "text",
+      "id": "product_title",
+      "label": "Product Title",
+      "default": "Eisa K686 Pro Se Anime Keyboard"
+    },
+    {
+      "type": "text",
+      "id": "add_to_cart_text",
+      "label": "Add to Cart Button Text",
+      "default": "Add To Cart"
+    },
+    {
+      "type": "url",
+      "id": "add_to_cart_url",
+      "label": "Add to Cart URL"
+    },
+    {
+      "type": "text",
+      "id": "buy_now_text",
+      "label": "Buy Now Button Text",
+      "default": "Buy Now"
+    },
+    {
+      "type": "url",
+      "id": "buy_now_url",
+      "label": "Buy Now URL"
+    },
+    {
+      "type": "color",
+      "id": "header_bg_color",
+      "label": "Header Background Color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "nav_item",
+      "name": "Navigation Item",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "nav_text",
+          "label": "Navigation Text",
+          "default": "Overview"
+        },
+        {
+          "type": "text",
+          "id": "target_section",
+          "label": "Target Section ID",
+          "info": "Enter the ID of the section this link should scroll to",
+          "default": "overview"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "header-tabs",
+      "category": "Product",
+      "blocks": [
+        {
+          "type": "nav_item",
+          "settings": {
+            "nav_text": "Overview",
+            "target_section": "overview"
+          }
+        },
+        {
+          "type": "nav_item",
+          "settings": {
+            "nav_text": "Specifications",
+            "target_section": "specifications"
+          }
+        },
+        {
+          "type": "nav_item",
+          "settings": {
+            "nav_text": "Software Download",
+            "target_section": "software"
+          }
+        },
+        {
+          "type": "nav_item",
+          "settings": {
+            "nav_text": "Reviews",
+            "target_section": "reviews"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  console.log($,"jq")
+  // Banner tab slide functionality
+  if (typeof $ !== 'undefined' && $.fn.slide) {
+    $('.banner-tab-{{ section.id }}').slide({ 
+      trigger: 'click', 
+      delayTime: 0 
+    });
+  }
+
+  // Setup navigation links for section targeting
+  const psLinks = document.querySelectorAll('.ps-links-{{ section.id }}');
+  
+  psLinks.forEach((e) => {
+    let index;
+    let targetSection;
+    if (e.classList.contains('ps-links-{{ section.id }}')) {
+      index = e.getAttribute('ps-target-section');
+    }
+    targetSection = document.getElementById(index);
+    
+    // If target section exists, update the href
+    if (targetSection) {
+      e.href = '#' + index;
+    }
+  });
+
+  // Header scroll functionality
+  const header = document.querySelector('.header-container-fluid-{{ section.id }}');
+  const headerTop = document.querySelector('.header-wrapper--border-bottom');
+  const headerOffsetTop = header.offsetTop;
+
+  // Scroll event listener
+  window.addEventListener('scroll', function() {
+    const scrollY = window.scrollY || window.pageYOffset;
+    if (scrollY >= headerOffsetTop) {
+      header.classList.add('pageheader-solid-{{ section.id }}');
+      if (headerTop) {
+        headerTop.classList.add('hidden');
+      }
+    } else {
+      if (headerTop) {
+        headerTop.classList.remove('hidden');
+      }
+      header.classList.remove('pageheader-solid-{{ section.id }}');
+    }
+  });
+
+  // Mobile menu toggle
+  window['toggleMobileMenu{{ section.id }}'] = function(button) {
+    const navMenu = document.getElementById('navMenu-{{ section.id }}');
+    navMenu.classList.toggle('active-{{ section.id }}');
+    
+    // 找到svg元素，切换class实现旋转效果
+    const arrow = button.querySelector('.mobile-menu-arrow-{{ section.id }}');
+    arrow.classList.toggle('rotated-{{ section.id }}');
+  }
+
+  // Handle navigation clicks
+  document.querySelectorAll('.ps-links-{{ section.id }}').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Remove active class from all links
+      document.querySelectorAll('.ps-links-{{ section.id }}').forEach(l => l.classList.remove('active-{{ section.id }}'));
+      
+      // Add active class to clicked link
+      this.classList.add('active-{{ section.id }}');
+      
+      // Close mobile menu if open
+      document.getElementById('navMenu-{{ section.id }}').classList.remove('active-{{ section.id }}');
+      
+      // Scroll to target section
+      const targetId = this.getAttribute('ps-target-section');
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', function(e) {
+    const navMenu = document.getElementById('navMenu-{{ section.id }}');
+    const toggleButton = document.querySelector('.mobile-menu-toggle-{{ section.id }}');
+    
+    if (navMenu && toggleButton && !navMenu.contains(e.target) && !toggleButton.contains(e.target)) {
+      navMenu.classList.remove('active-{{ section.id }}');
+    }
+  });
+
+  // 监听滚动，自动高亮导航
+  window.addEventListener('scroll', function() {
+    // 获取所有导航链接
+    const links = document.querySelectorAll('.ps-links-{{ section.id }}');
+    // 获取所有目标 section
+    const sections = Array.from(links).map(link => {
+      const id = link.getAttribute('ps-target-section');
+      return document.getElementById(id);
+    });
+
+    // 当前滚动位置
+    const scrollPos = window.scrollY || window.pageYOffset;
+
+    let activeIndex = 0;
+    // 找到当前可视区域的 section
+    sections.forEach((section, i) => {
+      if (section) {
+        const offsetTop = section.offsetTop;
+        if (scrollPos >= offsetTop - 80) { // 80 可根据你的 header 高度微调
+          activeIndex = i;
+        }
+      }
+    });
+
+    // 移除所有高亮
+    links.forEach(link => link.classList.remove('active-{{ section.id }}'));
+    // 给当前高亮
+    if (links[activeIndex]) {
+      links[activeIndex].classList.add('active-{{ section.id }}');
+    }
+  });
+});
+</script>

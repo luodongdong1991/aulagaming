@@ -1,0 +1,157 @@
+{% schema %}
+{
+  "name": "Driver Download Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Driver Download"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "driver_item",
+      "name": "Driver Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "driver_image",
+          "label": "Driver Image"
+        },
+        {
+          "type": "text",
+          "id": "driver_name",
+          "label": "Driver Name",
+          "default": "SM809 PRO"
+        },
+        {
+          "type": "url",
+          "id": "driver_link",
+          "label": "Download Link"
+        },
+        {
+          "type": "url",
+          "id": "buy_link",
+          "label": "View Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Driver Download Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="driver-download-section">
+  <h2 class="section-title">{{ section.settings.section_title }}</h2>
+  <div class="driver-list">
+    {% for block in section.blocks %}
+      <div class="driver-item">
+        {% if block.settings.driver_image %}
+          <img src="{{ block.settings.driver_image | img_url: 'medium' }}" alt="{{ block.settings.driver_name }}">
+        {% endif %}
+        <h3 class="driver-name">{{ block.settings.driver_name }}</h3>
+        <div class="driver-buttons">
+          {% if block.settings.driver_link %}
+            <a href="{{ block.settings.driver_link }}" class="btn download-btn" target="_blank">Download</a>
+          {% endif %}
+          {% if block.settings.buy_link %}
+            <a href="{{ block.settings.buy_link }}" class="btn buy-btn" target="_blank">View</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+.driver-download-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.driver-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.driver-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.driver-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.driver-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.driver-name {
+  font-size: 20px;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+.driver-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.download-btn {
+  background-color: #000;
+}
+
+.download-btn:hover {
+  background-color: #333;
+}
+
+.buy-btn {
+  background-color: #ff4500;
+}
+
+.buy-btn:hover {
+  background-color: #e03e00;
+}
+
+@media (max-width: 480px) {
+  .driver-buttons {
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+</style>

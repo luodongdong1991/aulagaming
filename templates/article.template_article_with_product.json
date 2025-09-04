@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "main": {
+      "settings": {
+        "container": "1170",
+        "sidebar_position": "left",
+        "show_main_img": false,
+        "mg_top_mobile": 0,
+        "show_next_prev": true,
+        "breadcrumb_gradient_mb": "",
+        "info_color": "#999999",
+        "text_font_weight": "400",
+        "page_title_alignment": "left",
+        "show_share": true,
+        "info_font_weight": "400",
+        "info_text_transform": "capitalize",
+        "show_author": true,
+        "info_font_size": 12,
+        "title_font": "font_2",
+        "text_font_size": 12,
+        "title_font_weight": "600",
+        "text_text_transform": "none",
+        "breadcrumb_gradient": "",
+        "show_tags": true,
+        "mg_top_desktop": 0,
+        "sidebar_heading_font_weight": "700",
+        "sidebar_heading_text_transform": "uppercase",
+        "mg_bottom_mobile": 0,
+        "show_collapse": false,
+        "breadcrumb_bg_mb": "#f6f6f6",
+        "show_breadcrumb": false,
+        "title_color": "#232323",
+        "enable_sticky": false,
+        "title_text_transform": "capitalize",
+        "mg_top_tablet": 0,
+        "title_font_size": 18,
+        "mg_bottom_desktop": 0,
+        "breadcrumb_alignment": "left",
+        "mg_bottom_tablet": 0,
+        "sidebar_heading_font_size": 14,
+        "sidebar_heading_font": "font_1",
+        "show_page_title": true,
+        "title_mobile_font_size": 18,
+        "sidebar_collapse_default": "expand",
+        "background_color": "",
+        "show_date": true,
+        "sidebar_layout": "layout_1",
+        "text_color": "#3c3c3c",
+        "breadcrumb_bg": "",
+        "info_font_style": "normal"
+      },
+      "blocks": {
+        "bced6fd1-310d-4026-8786-1f886c51eec2": {
+          "settings": {
+            "heading": "Categories",
+            "link_list": "",
+            "type": "1_level"
+          },
+          "type": "category"
+        },
+        "71176645-a609-4ff4-90ca-dc2dedabac94": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog-sidebar-1.jpg",
+            "heading": "",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "9d7a0194-0d26-408a-8c12-bd9c7e2feb29": {
+          "settings": {
+            "margin_bottom": 40,
+            "link": ""
+          },
+          "type": "lookbook"
+        },
+        "f1a4c4f6-e343-45a5-93ed-33109f5942ea": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog-sidebar-2.jpg",
+            "heading": "",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "73becaeb-c487-4f3b-93aa-39f4bef40c07": {
+          "settings": {
+            "bg_color_content": "#fafafa",
+            "fontsize_title": 14,
+            "margin_bottom": 40,
+            "enable_bg_color": true,
+            "fontsize_content": 12,
+            "margin_bottom_title": 12,
+            "color_content": "#3c3c3c",
+            "title": "Sample Block Quote",
+            "color_title": "#232323",
+            "content": "Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis."
+          },
+          "type": "block_quote"
+        },
+        "c04b7f25-8b25-4edb-a6fc-ed43934d98b4": {
+          "settings": {
+            "heading": "Custom Block",
+            "text": "<p>Custom CMS block displayed at the left sidebar on the Catalog Page. Put your own content here: text, html, images, media... or whatever you like.<\/p>\n<p>There are many similar sample content placeholders across the store. All editable from admin panel.<\/p>"
+          },
+          "type": "text"
+        },
+        "d26099c4-9298-4d24-be44-81f36c6a3bac": {
+          "settings": {
+            "product_block_collection": "collection-home-1-1",
+            "heading": "Editor’s Picks",
+            "product_block_dots": true,
+            "product_block_limit": 5,
+            "column": "3",
+            "position": "content",
+            "product_block_arrows": true,
+            "product_block_layout": "slider"
+          },
+          "type": "product_block"
+        },
+        "441f2329-1d0c-4d63-bcff-c7281f41bf54": {
+          "settings": {
+            "product_block_collection": "collection-home-1-2",
+            "heading": "Featured Products",
+            "product_block_dots": false,
+            "product_block_limit": 3,
+            "column": "1",
+            "position": "sidebar",
+            "product_block_arrows": true,
+            "product_block_layout": "slider"
+          },
+          "type": "product_block"
+        },
+        "df6f199c-e8b4-46e7-8d3f-12e6302e295c": {
+          "settings": {
+            "bg_color_content": "#fafafa",
+            "fontsize_title": 14,
+            "margin_bottom": 40,
+            "enable_bg_color": false,
+            "fontsize_content": 12,
+            "margin_bottom_title": 12,
+            "color_content": "#3c3c3c",
+            "title": "Sample Paragraph Text",
+            "color_title": "#232323",
+            "content": "Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elitos. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis deli denimes, suspendisse vestibulum lectus in lectus volutpate."
+          },
+          "type": "block_quote"
+        },
+        "96861bf3-10df-4b31-82bd-61aee2e9bc30": {
+          "settings": {
+            "number": 3,
+            "heading": "Recent Post"
+          },
+          "type": "recent_post"
+        }
+      },
+      "type": "main-article-with-product",
+      "block_order": [
+        "bced6fd1-310d-4026-8786-1f886c51eec2",
+        "96861bf3-10df-4b31-82bd-61aee2e9bc30",
+        "441f2329-1d0c-4d63-bcff-c7281f41bf54",
+        "71176645-a609-4ff4-90ca-dc2dedabac94",
+        "f1a4c4f6-e343-45a5-93ed-33109f5942ea",
+        "c04b7f25-8b25-4edb-a6fc-ed43934d98b4",
+        "9d7a0194-0d26-408a-8c12-bd9c7e2feb29",
+        "73becaeb-c487-4f3b-93aa-39f4bef40c07",
+        "df6f199c-e8b4-46e7-8d3f-12e6302e295c",
+        "d26099c4-9298-4d24-be44-81f36c6a3bac"
+      ]
+    },
+    "953667828935983827": {
+      "settings": {
+        "include_margins": true
+      },
+      "blocks": {
+        "dc9c370b-2860-41d2-b543-8c82619615a4": {
+          "settings": {},
+          "disabled": true,
+          "type": "shopify:\/\/apps\/dadao-product-reviews\/blocks\/featured-reviews\/3cc4253a-05eb-4164-8778-b76d83ce00cc"
+        }
+      },
+      "disabled": true,
+      "type": "apps",
+      "block_order": [
+        "dc9c370b-2860-41d2-b543-8c82619615a4"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "953667828935983827"
+  ]
+}

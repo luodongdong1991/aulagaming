@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover the World of AULA",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "<div class=\"about-point\">\n    <h3>Performance Inspired by Nature<\/h3>\n    <p>Inspired by the agility and ferocity of the wolf spider, AULA designs high-performance gaming gear built for speed, durability, and aggressive style.<\/p>\n  <\/div>\n  <div class=\"about-point\">\n    <h3>A Symbol of Balance<\/h3>\n    <p>The iconic diamond logo combines a trident for offense and a shield for defense—reflecting AULA’s commitment to balanced, multifunctional gaming hardware.<\/p>\n  <\/div>\n<\/section>",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "button_MCEHyt": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_style": "button_1",
+            "button_label": "Download",
+            "button_link": "https:\/\/drive.google.com\/drive\/folders\/18Jd6EEPT_U0MugJHM3-x84dD20fio9w0",
+            "margin_top_button": 30,
+            "enable_underline_button": false,
+            "button_color": "#ffffff",
+            "button_border_color": "#000000",
+            "button_bg_color": "#000000",
+            "button_bg_gradient": "",
+            "button_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "button_bg_color_hover": "#ffffff",
+            "button_bg_gradient_hover": "",
+            "button_width": "270px"
+          }
+        },
+        "social_media_rexhJR": {
+          "type": "social_media",
+          "disabled": true,
+          "settings": {
+            "social_spacing_top": 0,
+            "social_spacing_bottom": 0,
+            "social_icon_color": "",
+            "social_icon_background_color": "",
+            "social_icon_background_gradient": "",
+            "social_icon_hover_color": "",
+            "social_icon_background_hover_color": "",
+            "social_icon_background_hover_gradient": "",
+            "social_icon_ring_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "button_MCEHyt",
+        "social_media_rexhJR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "instagram_special_rtpGEc": {
+      "type": "instagram-special",
+      "blocks": {
+        "instagram_KDVQBJ": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01146_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_DJXr3e": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01153_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_THPB9E": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00185_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_NKeC8T": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01862_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_E9gLWH": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01028_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_LaNtXi": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00993_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_VDM3gw": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01766_WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_H3Ldwd": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F99PRO__WH_3000x3000px.webp",
+            "link": ""
+          }
+        },
+        "instagram_YeTFea": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00313_WH_3000x3000px.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "instagram_KDVQBJ",
+        "instagram_DJXr3e",
+        "instagram_THPB9E",
+        "instagram_NKeC8T",
+        "instagram_E9gLWH",
+        "instagram_LaNtXi",
+        "instagram_VDM3gw",
+        "instagram_H3Ldwd",
+        "instagram_YeTFea"
+      ],
+      "name": "t:sections.instagram_special.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "display_border_top": false,
+        "border_color": "#e3e3e3",
+        "instagram_bg": "#fafafa",
+        "instagram_bg_gradient": "",
+        "instagram_title": "AULA Product Presentation Area",
+        "color_title": "#232323",
+        "fontsize_title": 22,
+        "fontsize_title_mb": 22,
+        "margin_bottom_title": 5,
+        "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 16,
+        "margin_bottom_des": 0,
+        "title_align": "center",
+        "display_instagram_button": true,
+        "instagram_button_text": "View More",
+        "type_button_more": "link",
+        "instagram_button_link": "shopify:\/\/collections\/all",
+        "color_button": "#ffffff",
+        "border_color_button": "#232323",
+        "bg_color_button": "#232323",
+        "bg_color_gradient_button": "",
+        "maxwidth_button": 200,
+        "instagram_style": "layout__1",
+        "instagram_grid_gap": 15,
+        "items_border_radius": 6,
+        "type_instagram_by_gallery": "popup_image",
+        "display_icon_more": true,
+        "icon_color": "#ffffff",
+        "border_color_icon": "#232323",
+        "bg_color_icon": "#232323",
+        "bg_color_gradient_icon": "",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "instagram_special_bXH6rY": {
+      "type": "instagram-special",
+      "blocks": {
+        "instagram_W8BMRE": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1N9A0909_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_7nbKyc": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0553_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_cEpAHy": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03864_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_LVNhti": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1N9A2176_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_pDhgjU": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1N9A1794_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_hQR3de": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1N9A2099_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_mjQNYK": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0400_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_7cMfaT": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0382_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        },
+        "instagram_egLBNz": {
+          "type": "instagram",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3087_WH_2000x2000px_1.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "instagram_W8BMRE",
+        "instagram_7nbKyc",
+        "instagram_cEpAHy",
+        "instagram_LVNhti",
+        "instagram_pDhgjU",
+        "instagram_hQR3de",
+        "instagram_mjQNYK",
+        "instagram_7cMfaT",
+        "instagram_egLBNz"
+      ],
+      "name": "t:sections.instagram_special.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "display_border_top": false,
+        "border_color": "#e3e3e3",
+        "instagram_bg": "#fafafa",
+        "instagram_bg_gradient": "",
+        "instagram_title": "AULA Community",
+        "color_title": "#232323",
+        "fontsize_title": 22,
+        "fontsize_title_mb": 22,
+        "margin_bottom_title": 5,
+        "instagram_des": "With gamers, always — that’s AULA",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 16,
+        "margin_bottom_des": 0,
+        "title_align": "center",
+        "display_instagram_button": false,
+        "instagram_button_text": "View Gallery",
+        "type_button_more": "load",
+        "instagram_button_link": "",
+        "color_button": "#ffffff",
+        "border_color_button": "#232323",
+        "bg_color_button": "#232323",
+        "bg_color_gradient_button": "",
+        "maxwidth_button": 80,
+        "instagram_style": "layout__1",
+        "instagram_grid_gap": 15,
+        "items_border_radius": 6,
+        "type_instagram_by_gallery": "popup_image",
+        "display_icon_more": true,
+        "icon_color": "#ffffff",
+        "border_color_icon": "#232323",
+        "bg_color_icon": "#232323",
+        "bg_color_gradient_icon": "",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "slide_show_UkiEMU": {
+      "type": "slide-show",
+      "blocks": {
+        "image_TdGd7n": {
+          "type": "image",
+          "settings": {
+            "alignment": "left",
+            "enable_custom_position": false,
+            "custom_horizontal": "",
+            "custom_vertical": "",
+            "custom_vertical_mb": "",
+            "enable_position_outside_image": false,
+            "enable_border_line": false,
+            "padding_vertical": 30,
+            "content_width": 475,
+            "text_alignment": "center",
+            "text_alignment_mb": "center",
+            "enable_content_fullwidth": false,
+            "border_color_content": "",
+            "bg_color_content": "",
+            "profile_spacing_bottom": 50,
+            "profile_name": "",
+            "profile_name_color": "",
+            "profile_name_fs": 20,
+            "profile_name_fs_mb": 20,
+            "profile_name_fw": "normal",
+            "profile_title": "",
+            "profile_title_color": "",
+            "profile_title_fs": 20,
+            "profile_title_fs_mb": 20,
+            "profile_title_fw": "normal",
+            "sub_heading": "",
+            "letter_spacing_sub_title": "",
+            "font_size_sub_heading": 30,
+            "sub_heading_spacing_bottom": 20,
+            "sub_heading_font": "font_2",
+            "font_weight_sub_heading": "400",
+            "border_sub_heading": "none",
+            "sub_title_position": "sub_title_above",
+            "color_sub_heading": "#ffffff",
+            "heading": "Cosmopolis",
+            "letter_spacing_heading": "",
+            "enable_border_heading": false,
+            "font_style_heading": "normal",
+            "font_size_heading": 40,
+            "line_height_heading": 40,
+            "heading_spacing_bottom": 8,
+            "color_heading": "#232323",
+            "slide-des": "Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus meleifend menean diverra loremous.",
+            "font_size_des": 12,
+            "line_height_des": 22,
+            "des_spacing_bottom": 35,
+            "color_des": "#232323",
+            "sub_heading_mb": "",
+            "font_size_sub_heading_mb": 20,
+            "sub_heading_spacing_bottom_mb": 20,
+            "font_weight_sub_heading_mb": "400",
+            "border_sub_heading_mb": "none",
+            "color_sub_heading_mb": "#ffffff",
+            "heading_mb": "Cosmopolis",
+            "font_style_heading_mb": "normal",
+            "font_size_heading_mb": 24,
+            "line_height_heading_mb": 24,
+            "heading_spacing_bottom_mb": 8,
+            "color_heading_mb": "#ffffff",
+            "slide-des-mb": "Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus meleifend menean diverra loremous.",
+            "font_size_des_mb": 12,
+            "des_spacing_bottom_mb": 35,
+            "color_des_mb": "#ffffff",
+            "enable_icon_button": false,
+            "enable_button_link": false,
+            "enable_underline": true,
+            "font_size_link": 36,
+            "button_slide": "Shop Now",
+            "link": "",
+            "button_style": "button_1",
+            "button_slide_2": "",
+            "link_2": "",
+            "min_width_banner_button": 270,
+            "color_button": "#ffffff",
+            "border_button": "#232323",
+            "bg_button": "#232323",
+            "bg_button_gradient": "",
+            "color_button_hover": "#ffffff",
+            "border_button_hover": "#232323",
+            "bg_button_hover": "#232323",
+            "bg_button_gradient_hover": "",
+            "use_contrasting_colors": false,
+            "lb_product_1": "",
+            "horizontal_pos_1": 0,
+            "vertical_pos_1": 0,
+            "lookbook_pos_1": "right",
+            "lb_product_2": "",
+            "horizontal_pos_2": 0,
+            "vertical_pos_2": 0,
+            "lookbook_pos_2": "right",
+            "lb_product_3": "",
+            "horizontal_pos_3": 0,
+            "vertical_pos_3": 0,
+            "lookbook_pos_3": "right"
+          }
+        }
+      },
+      "block_order": [
+        "image_TdGd7n"
+      ],
+      "disabled": true,
+      "name": "t:sections.slide-show.presets.name",
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "slideshow_background": "",
+        "slideshow_background_gradient": "",
+        "border_radius": 0,
+        "autoplay": true,
+        "slideshow_speed": "5000",
+        "slideshow_transition": "true",
+        "dots": "shape",
+        "dots_color": "#707979",
+        "dots_border_color": "#707979",
+        "dots_active_color": "rgba(0,0,0,0)",
+        "dots_active_border_color": "#505656",
+        "dots_direction": "left",
+        "dots_shape": "disc",
+        "position_slick_dots": "34px",
+        "dots_opacity": false,
+        "dot_with_image": false,
+        "dot_width": 66,
+        "dot_width_active": 130,
+        "dot_width_mb": 38,
+        "dot_width_active_mb": 65,
+        "arrow_active": true,
+        "enable_custom_arrow": false,
+        "arrow_width": 35,
+        "arrow_height": 35,
+        "arrow_size_icon": 17,
+        "arrow_color": "#666d6d",
+        "arrow_border_color": "#666d6d",
+        "arrow_bg_color": "#ffffff",
+        "arrow_color_hover": "",
+        "arrow_border_color_hover": "",
+        "arrow_bg_color_hover": "",
+        "position_slick_arrow": "10%",
+        "position_vertical_slick_arrow": "50%",
+        "image_behavior": "none",
+        "video_height": "41.7%",
+        "video_height_mb": "41.7%",
+        "auto_playvideo": true,
+        "enable_categories": false,
+        "text_categories": "Shop by categories",
+        "title_color": "#ffffff",
+        "bg_title": "#fd6506",
+        "text_icon_color": "#202020",
+        "menu_category": "",
+        "enable_banner": false,
+        "lookbook_style": "1",
+        "enable_lookbook_width": false,
+        "lookbook_width": 250,
+        "dot_desktop_size": 24,
+        "dot_mobile_size": 16,
+        "dot_inner_color": "#000000",
+        "dot_shadow_color": "#ffffff",
+        "dot_outer_color": "#ffffff",
+        "show_dot_number": false,
+        "show_dot_number_mobile": false,
+        "show_plus_icon": false,
+        "number_desktop_size": 24,
+        "number_mobile_size": 16,
+        "lookbook_truncate": "1",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_c6QRte": {
+          "type": "paragraph",
+          "settings": {
+            "title": "key",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Presale",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_c6QRte",
+        "paragraph_B8NLYi"
+      ],
+      "disabled": true,
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "FAQs",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, please just send it to example@domain.com.",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "Contact Support",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": true,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "instagram_special_rtpGEc",
+    "instagram_special_bXH6rY",
+    "slide_show_UkiEMU",
+    "faqs_AkVQ67"
+  ]
+}

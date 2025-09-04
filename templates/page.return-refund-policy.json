@@ -1,0 +1,271 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "AULA Return & Refund Policy",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "At AULA, we are committed to providing high-quality products and services to our global customers. We respect the laws and regulations of each country and ensure your consumer rights are fully protected.",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "sub_heading_JWjxXB": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "Return Eligibility",
+            "font_weight_sub_heading": "700",
+            "sub_heading_size": 20,
+            "margin_top_sub_heading": 10,
+            "sub_heading_color": "#000000"
+          }
+        },
+        "content_RUUAQp": {
+          "type": "content",
+          "settings": {
+            "content_top": "Items must be brand new and unused. All original packaging and accessories must be intact, with no scratches, stains, or signs of use.Some of our mice and other products come with a protective film. To be eligible for a return, please do not remove the protective film. Once the film is removed, the item is no longer returnable.",
+            "content_bottom": "",
+            "alignment_content": "center",
+            "content_size": 16,
+            "margin_top_content": 10,
+            "content_color": "#000000",
+            "content_width": "800px",
+            "button_text_more": "",
+            "button_text_less": "Read Less",
+            "button_text_font_size": 14,
+            "button_text_font_weight": "500",
+            "margin_top_button_text": 30,
+            "button_text_color": "#ffffff",
+            "button_text_border_color": "#000000",
+            "button_text_bg_color": "#000000",
+            "button_text_bg_color_gradient": "",
+            "button_text_color_hover": "#000000",
+            "button_text_border_color_hover": "#000000",
+            "button_text_bg_color_hover": "#ffffff",
+            "button_text_bg_color_hover_gradient": "",
+            "button_text_more_width": 270,
+            "pd_top_button_text": 12,
+            "pd_bottom_button_text": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "sub_heading_JWjxXB",
+        "content_RUUAQp"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 20,
+        "mg_bottom_tablet": 20,
+        "mg_bottom_mobile": 20
+      }
+    },
+    "faqs_qtXiVt": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_Uai6tn": {
+          "type": "paragraph",
+          "settings": {
+            "title": "",
+            "question_1": "15-Day No-Reason Returns",
+            "answer_1": "<p>You have the right to return your order within 15 days of receipt (based on the delivery date shown on the tracking page).<\/p>\n\n<p>Products must be returned unused and with all original accessories. If the product or its packaging shows signs of use or damage beyond what is necessary to inspect it, we may deduct a reasonable amount from your refund to reflect any loss in value. If applicable, deductions typically range from 5% to 30% depending on the condition of the returned item.<\/p>\n\n<h4>Return shipping will be covered by AULA in the following cases:<\/h4>\n<ul>\n  <li>Product has defects or missing accessories<\/li>\n  <li>Product does not match the description<\/li>\n<\/ul>\n<p>We recommend keeping the original packaging to ensure a smooth return process.<\/p>\n\n<h4>You will bear the return shipping cost in the following case:<\/h4>\n<ul>\n  <li>Return due to personal reasons (e.g., changed mind)<\/li>\n<\/ul>",
+            "question_2": "Returns from Day 15 to Day 30",
+            "answer_2": "<p>You can still return your product within 30 days of receiving it, but if the return request is made after 15 days, the following applies:<\/p>\n\n<ul>\n  <li>If product issues or defects are found during use and confirmed to be due to the product itself, AULA will cover the cost of returns and after-sales services.<\/li>\n<\/ul>\n\n<p>The item must still meet all return conditions mentioned above.<\/p>\n<p>Return shipping costs are the responsibility of the customer.<\/p>\n<p>No restocking fees or hidden charges will be applied.<\/p>",
+            "question_3": "How to Return a Product",
+            "answer_3": "<h4>Submit a Return Request<\/h4>\n<p>Contact our customer service team via the live chat on our official website or email us at <a href=\"mailto:support@aulagaming.com\">support@aulagaming.com<\/a> to initiate your return request.<\/p>\n\n<h4>Receive Return Instructions<\/h4>\n<p>Since we operate multiple warehouses globally, our team will provide you with the most convenient return address based on your location.<\/p>\n<p>⚠️ <strong>Do not return any item without contacting our team first.<\/strong> If you return an item without prior authorization, you will be responsible for all shipping costs, and there is a risk that the package may be lost.<\/p>\n\n<h4>Ship the Item<\/h4>\n<p>Before sending the item back, take clear photos of the product, packaging, and accessories to document the condition.<br>\nPlease provide a valid tracking number and receipt within 3 days of shipment.<\/p>",
+            "question_4": "Returns Due to Product Defects or Quality Issues",
+            "answer_4": "<p>If the product you received has a quality issue or visible defect, please contact our customer support team as soon as possible. After we verify the issue, we will either issue a full refund or provide a free replacement, depending on your preference.<\/p>\n\n<p><strong>AULA will cover all related shipping costs.<\/strong><\/p>\n\n<p>To help us analyze and confirm the issue, please make sure to provide a video clearly showing the defect.<\/p>",
+            "question_5": "Refund Timeline",
+            "answer_5": "<p>Once we receive your return package and confirm the product, packaging, and accessories are in good condition:<\/p>\n\n<ul>\n  <li>We will process your full refund within 2 business days.<\/li>\n  <li>Damage that occurs during transit will be covered by AULA, not the customer.<\/li>\n  <li>Refunds will be issued to the original payment method (e.g., credit card, PayPal). It may take 1–8 business days for the refund to appear.<\/li>\n  <li>Return shipping reimbursements (when applicable) will be processed via PayPal or another suitable method.<\/li>\n<\/ul>",
+            "question_6": "Applicable Laws and Regulations",
+            "answer_6": "<p>This Return and Refund Policy complies with the following regulations to ensure your rights as a customer are protected:<\/p>\n\n<ul>\n  <li>EU Consumer Rights Directive (Directive 2011\/83\/EU on Consumer Rights)<\/li>\n  <li>Federal Trade Commission (FTC) Rules – United States<\/li>\n  <li>UK Consumer Rights Act 2015<\/li>\n  <li>Hong Kong Trade Descriptions Ordinance &amp; Consumer Contracts (Remote Sales) Regulation<\/li>\n<\/ul>\n\n<p>AULA is committed to applying the relevant legal protections according to your location. For questions about specific legal protections, feel free to reach out to our support team.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_Uai6tn"
+      ],
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "1170",
+        "padding_full_width": 0,
+        "title": "",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": false,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_c6QRte": {
+          "type": "paragraph",
+          "settings": {
+            "title": "key",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Presale",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_c6QRte",
+        "paragraph_B8NLYi"
+      ],
+      "disabled": true,
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "FAQs",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, please just send it to example@domain.com.",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "Contact Support",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": true,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "faqs_qtXiVt",
+    "faqs_AkVQ67"
+  ]
+}

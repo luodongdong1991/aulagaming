@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms of Service for AULA:",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "These terms of service (“Terms”) govern your use of the AULAGAMING website and services (“Service”). By using the Service, you agree to these Terms.",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "social_media_rexhJR": {
+          "type": "social_media",
+          "disabled": true,
+          "settings": {
+            "social_spacing_top": 0,
+            "social_spacing_bottom": 0,
+            "social_icon_color": "",
+            "social_icon_background_color": "",
+            "social_icon_background_gradient": "",
+            "social_icon_hover_color": "",
+            "social_icon_background_hover_color": "",
+            "social_icon_background_hover_gradient": "",
+            "social_icon_ring_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "social_media_rexhJR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "",
+            "question_1": "Account Registration",
+            "answer_1": "<p>To use certain features of the Service, you may need to register for an account. You must provide accurate and complete information when registering, and you are responsible for keeping your account information up-to-date.<\/p>",
+            "question_2": "Content",
+            "answer_2": "<p>You are solely responsible for any content that you upload, post, or otherwise make available through the Service. You represent and warrant that you have all necessary rights to such content and that the content does not violate any third-party rights or any applicable laws.<\/p>",
+            "question_3": "Intellectual Property",
+            "answer_3": "<p>All content on the Service, including text, graphics, logos, and images, is the property of AULAGAMING or its licensors and is protected by copyright and other intellectual property laws. You may not use any content from the Service without our prior written consent.<\/p>",
+            "question_4": "Payments and Refunds",
+            "answer_4": "<p>You agree to pay all fees and charges associated with your use of the Service. We reserve the right to modify our fees at any time. If you are not satisfied with your purchase, you may be eligible for a refund in accordance with our return policy.<\/p>",
+            "question_5": "Disclaimer of Warranties",
+            "answer_5": "<p>The Service is provided on an “as is” and “as available” basis. We do not guarantee that the Service will be uninterrupted or error-free, and we make no warranties or representations regarding the use or results of the Service.<\/p>",
+            "question_6": "Limitation of Liability",
+            "answer_6": "<p>To the extent permitted by law, AULAGAMING will not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with your use of the Service.<\/p>",
+            "question_7": "Indemnification",
+            "answer_7": "<p>You agree to indemnify and hold harmless AULAGAMING, its affiliates, officers, agents, and employees from any claim, demand, or damages, including reasonable attorneys' fees, arising out of or in connection with your use of the Service or your violation of these Terms.<\/p>",
+            "question_8": "Governing Law",
+            "answer_8": "<p>These Terms and your use of the Service will be governed by and construed in accordance with the laws of including the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and the Children's Online Privacy Protection Act (COPPA).<\/p>",
+            "question_9": "Changes to Terms",
+            "answer_9": "<p>We may modify these Terms at any time by posting the revised Terms on our website. Your continued use of the Service after such changes will constitute acceptance of the modified Terms.<\/p>",
+            "question_10": "Contact Us",
+            "answer_10": "<p>If you have any questions or concerns about these Terms, please contact us at <a href=\"mailto:support@aulagaming.com\">support@aulagaming.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_B8NLYi"
+      ],
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": false,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "faqs_AkVQ67"
+  ]
+}

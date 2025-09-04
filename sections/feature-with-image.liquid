@@ -1,0 +1,345 @@
+<style>
+  .full-width-container-{{ section.id }} * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .full-width-container-{{ section.id }} {
+    width: 100%;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    max-width: 1400px;
+    margin: auto;
+    {% if section.settings.image_position == 'right' %}
+      flex-direction: row;
+    {% else %}
+      flex-direction: row-reverse;
+    {% endif %}
+  }
+
+  .text-content-{{ section.id }} {
+    width: 50%;
+    background-color: {{ section.settings.text_bg_color | default: '#000' }};
+    color: {{ section.settings.text_color | default: '#fff' }};
+    padding:2% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-content-{{ section.id }} {
+    width: 50%;
+    background: {{ section.settings.image_bg_gradient | default: 'linear-gradient(135deg, #8B7EC8 0%, #A594D1 50%, #B8A9DB 100%)' }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .feature-title-{{ section.id }} {
+    font-size: {{ section.settings.title_size | default: 2.5 }}rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: {{ section.settings.title_color | default: '#fff' }};
+  }
+
+  .feature-description-{{ section.id }} {
+    font-size: {{ section.settings.description_size | default: 1.1 }}rem;
+    line-height: 1.8;
+    color: {{ section.settings.description_color | default: '#e0e0e0' }};
+    max-width: 500px;
+  }
+
+  .product-image-{{ section.id }} {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .cta-button-{{ section.id }} {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: {{ section.settings.button_bg_color | default: '#fff' }};
+    color: {{ section.settings.button_text_color | default: '#000' }};
+    padding: 16px 32px;
+    border: 2px solid {{ section.settings.button_border_color | default: '#fff' }};
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+  }
+
+  .cta-button-{{ section.id }}:hover {
+    background-color: {{ section.settings.button_hover_bg_color | default: 'transparent' }};
+    color: {{ section.settings.button_hover_text_color | default: '#fff' }};
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 768px) {
+    .full-width-container-{{ section.id }} {
+      flex-direction: column !important;
+    }
+
+    .text-content-{{ section.id }},
+    .image-content-{{ section.id }} {
+      width: 100%;
+    }
+
+    .text-content-{{ section.id }} {
+      padding: 60px 40px;
+      {% if section.settings.mobile_text_first == true %}
+        order: 1;
+      {% else %}
+        order: 2;
+      {% endif %}
+    }
+
+    .image-content-{{ section.id }} {
+      {% if section.settings.mobile_text_first == true %}
+        order: 2;
+      {% else %}
+        order: 1;
+      {% endif %}
+    }
+
+    .feature-title-{{ section.id }} {
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    .feature-description-{{ section.id }} {
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .text-content-{{ section.id }} {
+      padding: 40px 30px;
+    }
+  }
+</style>
+
+<div class="full-width-container-{{ section.id }}" id="{{ section.settings.position_2 }}">
+  <!-- Text content -->
+  <div class="text-content-{{ section.id }}">
+    {% if section.settings.feature_title %}
+      <h2 class="feature-title-{{ section.id }}">{{ section.settings.feature_title }}</h2>
+    {% endif %}
+    
+    {% if section.settings.feature_description %}
+      <p class="feature-description-{{ section.id }}">{{ section.settings.feature_description }}</p>
+    {% endif %}
+
+    {% if section.settings.cta_text and section.settings.cta_url %}
+      <a href="{{ section.settings.cta_url }}" class="cta-button-{{ section.id }}">
+        {{ section.settings.cta_text }}
+        {% if section.settings.show_arrow %}
+          <span>→</span>
+        {% endif %}
+      </a>
+    {% endif %}
+  </div>
+
+  <!-- Image content -->
+  <div class="image-content-{{ section.id }}">
+    {% if section.settings.feature_image %}
+      <img src="{{ section.settings.feature_image | img_url: '800x600' }}" 
+           alt="{{ section.settings.feature_image.alt | default: section.settings.feature_title }}" 
+           class="product-image-{{ section.id }}"  loading="lazy" decoding="async">
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Feature with Image",
+  "tag": "section",
+  "class": "feature-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "text",
+      "id": "position_2",
+      "label": "页面定位Id输入:"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image Position",
+      "options": [
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        }
+      ],
+      "default": "right"
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_text_first",
+      "label": "Show text first on mobile",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "feature_title",
+      "label": "Feature Title",
+      "default": "Gasket Design"
+    },
+    {
+      "type": "textarea",
+      "id": "feature_description",
+      "label": "Feature Description",
+      "default": "The body structure differs from traditional screw fixing by using precision-locked covers with gaskets to assist with noise reduction and flexibility. It provides even feedback while the vertical cushioning reduces rigid noise, delivering a crisp, clean and softer typing feel."
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "cta_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrow",
+      "label": "Show arrow in button",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Image Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "feature_image",
+      "label": "Feature Image"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title Size (rem)",
+      "min": 1.5,
+      "max": 4,
+      "step": 0.1,
+      "default": 2.5
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description Size (rem)",
+      "min": 0.8,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.1
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_bg_color",
+      "label": "Text Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description Color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "text",
+      "id": "image_bg_gradient",
+      "label": "Image Background Gradient",
+      "default": "linear-gradient(135deg, #8B7EC8 0%, #A594D1 50%, #B8A9DB 100%)",
+      "info": "CSS gradient value"
+    },
+    {
+      "type": "header",
+      "content": "Button Colors"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_border_color",
+      "label": "Button Border Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Button Hover Background Color",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button Hover Text Color",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature with Image",
+      "settings": {
+        "feature_title": "Gasket Design",
+        "feature_description": "The body structure differs from traditional screw fixing by using precision-locked covers with gaskets to assist with noise reduction and flexibility. It provides even feedback while the vertical cushioning reduces rigid noise, delivering a crisp, clean and softer typing feel.",
+        "image_position": "right"
+      }
+    }
+  ]
+}
+{% endschema %}

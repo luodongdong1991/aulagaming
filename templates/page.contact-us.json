@@ -1,0 +1,307 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "All AULA product drivers can be downloaded here.",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "Note: If you experience any issues, please contact our support team.\nThe link may contain some Google-sponsored ads. Please do not click on any unrelated content.",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "button_MCEHyt": {
+          "type": "button",
+          "settings": {
+            "button_style": "button_1",
+            "button_label": "Download",
+            "button_link": "https:\/\/drive.google.com\/drive\/folders\/18Jd6EEPT_U0MugJHM3-x84dD20fio9w0",
+            "margin_top_button": 30,
+            "enable_underline_button": false,
+            "button_color": "#ffffff",
+            "button_border_color": "#000000",
+            "button_bg_color": "#000000",
+            "button_bg_gradient": "",
+            "button_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "button_bg_color_hover": "#ffffff",
+            "button_bg_gradient_hover": "",
+            "button_width": "270px"
+          }
+        },
+        "social_media_rexhJR": {
+          "type": "social_media",
+          "disabled": true,
+          "settings": {
+            "social_spacing_top": 0,
+            "social_spacing_bottom": 0,
+            "social_icon_color": "",
+            "social_icon_background_color": "",
+            "social_icon_background_gradient": "",
+            "social_icon_hover_color": "",
+            "social_icon_background_hover_color": "",
+            "social_icon_background_hover_gradient": "",
+            "social_icon_ring_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "button_MCEHyt",
+        "social_media_rexhJR"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "left",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_c6QRte": {
+          "type": "paragraph",
+          "settings": {
+            "title": "General",
+            "question_1": "Is AULAGAMING the official website?",
+            "answer_1": "<p>Yes. AULAGAMING is AULA’s official self-operated website. Here you’ll find official product listings, purchasing options, after-sales support, driver downloads, new releases, promotions, and more. We’re expanding to serve global markets, and all products sold here are 100% authentic with a 2-year extended warranty. Other online platforms are third-party sellers or distributors — please purchase with caution.<\/p>",
+            "question_2": "",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_RBqWRi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Orders & Shipping",
+            "question_1": "What payment methods do you accept?",
+            "answer_1": "<p>We accept major credit\/debit cards, PayPal, and other secure payment gateways.<\/p>",
+            "question_2": "Where do you ship from?",
+            "answer_2": "<p>Our warehouses are located in major cities around the world. We will determine the best shipping method for your package based on your order and stock availability, aiming to deliver it to you as quickly as possible.<\/p>",
+            "question_3": "Do you offer free shipping?",
+            "answer_3": "<p>Yes, we offer free shipping to many countries on qualifying orders. Shipping fees may apply to some regions.<\/p>",
+            "question_4": "How long will delivery take?",
+            "answer_4": "<p>Under normal circumstances, your order will be delivered within 3–7 business days. In cases of stock shortages, pre-sale items, or force majeure factors such as weather or policy changes, delivery may take up to 15 days.<\/p>",
+            "question_5": "How can I track my order?",
+            "answer_5": "<p>Once your order is shipped, you’ll receive a tracking number via email. You can use it to check delivery progress online.<\/p>",
+            "question_6": "Can I cancel my order?",
+            "answer_6": "<p>We usually process orders within one business day. If you wish to cancel, please email us as soon as possible. If the order has already been shipped, you may need to cover the associated costs.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_zypANw": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Product & Warranty",
+            "question_1": "Are AULA products original and authentic?",
+            "answer_1": "<p>Yes. All products on AULAGAMING are 100% original, manufactured and backed by AULA.<\/p>",
+            "question_2": "Do your products come with warranty?",
+            "answer_2": "<p>Yes. Every product purchased through AULAGAMING includes a 2-year limited warranty.<\/p>",
+            "question_3": "How can I download drivers or software?",
+            "answer_3": "<p>Visit our Driver Download page to get the latest versions for your AULA devices.<\/p>",
+            "question_4": "Do your keyboards work with macOS or Linux?",
+            "answer_4": "<p>Many AULA keyboards are compatible with macOS and Linux, but some features (like software) may be Windows-only. Check the product page for details.<\/p>",
+            "question_5": "What switches do your keyboards use?",
+            "answer_5": "<p>We use a variety of mechanical switches, including AULA x LEOBOG custom switches, with options for tactile, linear, and magnetic trigger types.<\/p>",
+            "question_6": "",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_7QhV7G": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Returns & Support",
+            "question_1": "How do I request a return or refund?",
+            "answer_1": "<p>Contact support@aulagaming.com with your order details and reason. Our team will guide you through the return process.<\/p>",
+            "question_2": "Do I need to pay for return shipping?",
+            "answer_2": "<p>If the return is due to a quality issue or our error, we’ll cover the return shipping cost.<\/p>",
+            "question_3": "",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_k89EJC": {
+          "type": "paragraph",
+          "settings": {
+            "title": "More",
+            "question_1": "Phone & Address",
+            "answer_1": "<p>Phone: +86 136 1303 4261<\/p>\n<p>Address: B, 8th Floor, Building A, Huayuan Community, Fenghuang No.1 Industrial Zone, Fuyong Subdistrict, Bao’an District, Shenzhen, China<\/p>\n<p>SUNMAY CONVERGENCE CO.. LIMITED<\/p>\n<p><\/p><p>Office Address: Flat A, 15\/F, 144 Dalian Paidao, Kwai Fong, New Territories 999077, Hong Kong<\/p>",
+            "question_2": "",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "title": "Presale",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_c6QRte",
+        "paragraph_RBqWRi",
+        "paragraph_zypANw",
+        "paragraph_7QhV7G",
+        "paragraph_k89EJC",
+        "paragraph_B8NLYi"
+      ],
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "Have a question ? We are here to help.",
+        "color_title": "#232323",
+        "fontsize_title": 32,
+        "fontsize_title_mb": 22,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "<section class=\"faq-intro text-left p-6 bg-gray-100 rounded-2xl shadow-md\">\n  <h3 class=\"text-base font-bold mb-2\">Check Out the Most Common Questions<\/h3>\n  <p class=\"text-sm text-gray-700 mb-2\">Our customers often ask these questions. Still need help?<\/p>\n  <p class=\"text-sm text-gray-700 mb-2\">\n    Contact our \n    <a href=\"\/pages\/contact\" class=\"text-blue-600 underline hover:text-blue-800\">customer support<\/a> \n    or email us at \n    <a href=\"mailto:support@aulagaming.com\" class=\"text-blue-600 underline hover:text-blue-800\">support@aulagaming.com<\/a>.\n  <\/p>\n  <div class=\"text-xs text-gray-500\">\n    <p>Available: Monday to Friday, 9:30am – 6:00pm (UTC +8)<\/p>\n    <p>Average answer time: 1 h<\/p>\n  <\/div>\n<\/section>",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": false,
+        "mg_top_desktop": 30,
+        "mg_top_tablet": 30,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "faqs_AkVQ67"
+  ]
+}

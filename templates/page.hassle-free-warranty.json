@@ -1,0 +1,268 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_JtiAdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6VBEU": {
+          "type": "heading",
+          "settings": {
+            "heading": "AULA Warranty Policy",
+            "heading_size": 30,
+            "heading_size_mb": 30,
+            "heading_line_height": 1,
+            "heading_color": "#000000"
+          }
+        },
+        "text_mmVHiR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At AULA, we stand behind the quality and durability of our products. We offer a 2-year limited warranty for all AULA products.<\/p>\n\n<p>This warranty applies only to orders purchased directly from the official AULAGAMING website (<a href=\"https:\/\/aulagaming.com\/\" target=\"_blank\">https:\/\/aulagaming.com\/<\/a>). <span style=\"color: red;\">We are not responsible for products purchased from other platforms or channels.<\/span><\/p>",
+            "text_size": 16,
+            "text_size_mb": 12,
+            "text_font_weight": "400",
+            "text_line_height": 1,
+            "margin_top_text": 20,
+            "text_color": "#000000",
+            "text_width": "800px"
+          }
+        },
+        "button_MCEHyt": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_style": "button_1",
+            "button_label": "Download",
+            "button_link": "https:\/\/drive.google.com\/drive\/folders\/18Jd6EEPT_U0MugJHM3-x84dD20fio9w0",
+            "margin_top_button": 30,
+            "enable_underline_button": false,
+            "button_color": "#ffffff",
+            "button_border_color": "#000000",
+            "button_bg_color": "#000000",
+            "button_bg_gradient": "",
+            "button_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "button_bg_color_hover": "#ffffff",
+            "button_bg_gradient_hover": "",
+            "button_width": "270px"
+          }
+        },
+        "social_media_rexhJR": {
+          "type": "social_media",
+          "disabled": true,
+          "settings": {
+            "social_spacing_top": 0,
+            "social_spacing_bottom": 0,
+            "social_icon_color": "",
+            "social_icon_background_color": "",
+            "social_icon_background_gradient": "",
+            "social_icon_hover_color": "",
+            "social_icon_background_hover_color": "",
+            "social_icon_background_hover_gradient": "",
+            "social_icon_ring_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6VBEU",
+        "text_mmVHiR",
+        "button_MCEHyt",
+        "social_media_rexhJR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "rich_text_bg": "#ffffff",
+        "rich_text_bg_gradient": "",
+        "enable_column": false,
+        "content_align": "center",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "faqs_n3TYtf": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_QbKcB6": {
+          "type": "paragraph",
+          "settings": {
+            "title": "",
+            "question_1": "Warranty Coverage",
+            "answer_1": "<p>This warranty covers:<\/p>\n\n<ol>\n  <li>\n<strong>Appearance Issues<\/strong>\n    <ul>\n      <li>Keycap printing<\/li>\n      <li>Surface defects<\/li>\n      <li>Assembly flaws<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Structural &amp; Functional Issues<\/strong>\n    <ul>\n      <li>Switch issues<\/li>\n      <li>PCB issues<\/li>\n      <li>Plate\/padding issues<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Feel Issues<\/strong>\n    <ul>\n      <li>Spring inconsistency<\/li>\n      <li>Uneven lubrication<\/li>\n      <li>Key travel errors<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Electrical &amp; Connectivity Issues<\/strong>\n    <ul>\n      <li>Wireless instability<\/li>\n      <li>USB port issues<\/li>\n      <li>LED lighting issues<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Packaging &amp; Testing<\/strong>\n    <ul>\n      <li>Missing\/wrong accessories<\/li>\n      <li>Incomplete testing<\/li>\n    <\/ul>\n  <\/li>\n<\/ol>\n\n<p>This warranty does not cover:<\/p>\n\n<ol>\n  <li>\n<strong>User damage<\/strong>\n    <ul>\n      <li>Drops, spills, burns, or misuse.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Normal wear and tear<\/strong>\n    <ul>\n      <li>Keycap fading, spring fatigue, surface wear.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Unauthorized disassembly or modifications<\/strong>\n    <ul>\n      <li>Self-repair or modifications.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Non-official repairs<\/strong>\n    <ul>\n      <li>Repairs by unauthorized service centers.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Improper use<\/strong>\n    <ul>\n      <li>Using wrong cleaners or extreme environments.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Software issues<\/strong>\n    <ul>\n      <li>Driver or firmware problems.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Consumables<\/strong>\n    <ul>\n      <li>Cables, bags, or accessories wear.<\/li>\n    <\/ul>\n  <\/li>\n\n  <li>\n<strong>Non-official purchase<\/strong>\n    <ul>\n      <li>Bought from unauthorized sellers.<\/li>\n    <\/ul>\n  <\/li>\n<\/ol>",
+            "question_2": "Shipping Costs",
+            "answer_2": "<p>If a product develops a defect covered by warranty within 2 years of purchase:<\/p>\n\n<p>AULA will cover all shipping costs, including return and reshipment, for repair or replacement.<\/p>\n\n<p><strong>Note:<\/strong> If the issue is found to be outside the warranty scope, the customer may be responsible for return shipping and any applicable repair costs.<\/p>",
+            "question_3": "How to Make a Warranty Claim",
+            "answer_3": "<p>Contact our customer support team at <a href=\"mailto:support@aulagaming.com\">support@aulagaming.com<\/a> and include:<\/p>\n<ul>\n  <li>Your order number or proof of purchase<\/li>\n  <li>A description of the issue<\/li>\n  <li>Photos or videos showing the defect<\/li>\n<\/ul>\n<p>Our team will assess your claim and provide instructions for return if eligible.<\/p>\n<p>Upon receiving the product, we will repair or replace it free of charge and cover the return shipping.<\/p>\n<p>Please do not return any product without first contacting customer support to obtain the proper return instructions. Unauthorized returns may result in AULA refusing to cover shipping costs or any related damages.<\/p>",
+            "question_4": "Additional Notes",
+            "answer_4": "<p>Warranty coverage begins on the date of purchase.<\/p>\n\n<p>Replacement or repaired products do not extend the original warranty period. They are covered only for the remainder of the original 2-year warranty from the initial purchase date.<\/p>\n\n<p>This warranty is provided in addition to your local legal consumer rights.<\/p>",
+            "question_5": "",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_QbKcB6"
+      ],
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": false,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    },
+    "faqs_AkVQ67": {
+      "type": "faqs",
+      "blocks": {
+        "paragraph_c6QRte": {
+          "type": "paragraph",
+          "settings": {
+            "title": "key",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        },
+        "paragraph_B8NLYi": {
+          "type": "paragraph",
+          "settings": {
+            "title": "Presale",
+            "question_1": "Question",
+            "answer_1": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_2": "Question",
+            "answer_2": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_3": "Question",
+            "answer_3": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_4": "Question",
+            "answer_4": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_5": "Question",
+            "answer_5": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_6": "Question",
+            "answer_6": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_7": "Question",
+            "answer_7": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_8": "Question",
+            "answer_8": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_9": "Question",
+            "answer_9": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>",
+            "question_10": "Question",
+            "answer_10": "<p>Use overlay text to give your customers insight into your brand. Select image and text that relates to your style and story.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_c6QRte",
+        "paragraph_B8NLYi"
+      ],
+      "disabled": true,
+      "name": "t:sections.faqs.presets.name",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "title": "FAQs",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "description": "Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, please just send it to example@domain.com.",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "contact_text": "Contact Support",
+        "contact_link": "",
+        "contact_color": "#ffffff",
+        "contact_color_border": "#ef6454",
+        "contact_color_bg": "#ef6454",
+        "contact_color_bg_gradient": "",
+        "contact_color_hover": "#ffffff",
+        "contact_color_border_hover": "#ef6454",
+        "contact_color_bg_hover": "#ef6454",
+        "contact_color_bg_gradient_hover": "",
+        "title_alignment": "left",
+        "show_faqs_filter": true,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JtiAdX",
+    "faqs_n3TYtf",
+    "faqs_AkVQ67"
+  ]
+}

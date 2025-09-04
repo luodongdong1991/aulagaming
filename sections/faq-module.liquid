@@ -1,0 +1,282 @@
+<style>
+  a {
+    color: #b63b4d;
+    text-decoration: none;
+  }
+
+  .link-dropdown__button-icon {
+    position: absolute;
+    margin: -12px 0 0;
+    margin-inline-end: 8px;
+    right: 0;
+    top: 50%;
+    transition: transform 0.25s ease;
+  }
+
+  .link-dropdown__button-icon svg {
+    fill: none !important;
+    width: unset !important;
+    height: unset !important;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  h1 a {
+    color: #c12c42;
+    font-size: 16px;
+  }
+
+  .u-timeline {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(237, 237, 237, 1);
+    padding: {{ section.settings.p_padding }}px;
+  }
+
+  #accordion-{{ section.id }} {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto 20px;
+    border-radius: 4px;
+  }
+
+  #accordion-{{ section.id }} li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  #accordion-{{ section.id }} .link {
+    cursor: pointer;
+    display: block;
+    padding: 20px;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    transition: all 0.4s ease;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 1.33 !important;
+    text-decoration: none !important;
+    outline: none;
+  }
+
+  #accordion-{{ section.id }} li:last-child .link {
+    border-bottom: 0;
+  }
+
+  #accordion-{{ section.id }} li i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-size: 18px;
+    color: #595959;
+    transition: all 0.4s ease;
+  }
+
+  #accordion-{{ section.id }} li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+  }
+
+  #accordion-{{ section.id }} li.open i {
+    color: #b63b4d;
+  }
+
+  #accordion-{{ section.id }} li.open .link-dropdown__button-icon {
+    transform: rotate(180deg);
+  }
+
+  .submenu-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 0 20px 20px 20px;
+  }
+  .submenu {
+    display: none;
+    font-size: 16px;
+    font-family: noto-sans, sans-serif;
+    font-weight: 400;
+    flex: 1 1 0;
+    margin: 0;
+    padding: 0;
+  }
+  li.open .submenu {
+    display: block;
+  }
+  .submenu li {
+    padding: 0;
+    margin: 0;
+  }
+  .submenu p {
+    display: block;
+    color: #3e3a39;
+    padding: 0;
+    transition: all 0.25s ease;
+    letter-spacing: 0.24px;
+  }
+
+  .submenu a {
+    text-decoration: underline !important;
+  }
+
+  .ol, ul, dl {
+    margin-inline-start: 0em;
+    margin: 0em;
+  }
+    @media screen and (max-width: 768px) {
+  .submenu-wrapper  {
+    flex-direction: column;
+  }
+    }
+</style>
+
+<section class="u-timeline" id="{{ section.settings.position_2 }}">
+  <h3 style="padding-bottom: 10px; max-width: 1200px; margin: auto;">{{ section.settings['head-suheadr'] }}</h3>
+  <ul id="accordion-{{ section.id }}" class="accordion">
+    {% for block in section.blocks %}
+      <li>
+        <div class="link" role="button" tabindex="0" aria-expanded="false" aria-controls="submenu-{{ forloop.index }}">
+          {{ block.settings['head-title'] }}
+          <span class="link-dropdown__button-icon">
+            <svg width="26" height="26" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6l4 4 4-4" />
+            </svg>
+          </span>
+        </div>
+        <div class="submenu-wrapper">
+          <ul class="submenu" id="submenu-{{ forloop.index }}">
+            <li>
+              {{ block.settings.content }}
+            </li>
+          </ul>
+          <ul class="submenu" id="submenu2-{{ forloop.index }}">
+            <li>
+              {{ block.settings.content_1 }}
+            </li>
+          </ul>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const accordionEl = document.getElementById('accordion-{{ section.id }}');
+    if (!accordionEl) return;
+
+    accordionEl.addEventListener('click', function (e) {
+      const link = e.target.closest('.link');
+      if (!link) return;
+      toggleAccordion(link);
+    });
+
+    accordionEl.addEventListener('keydown', function (e) {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('link')) {
+        e.preventDefault();
+        toggleAccordion(e.target);
+      }
+    });
+
+    function toggleAccordion(link) {
+      const li = link.parentElement;
+      const submenu = li.querySelector('.submenu');
+      const isOpen = li.classList.contains('open');
+
+      // 关闭全部
+      accordionEl.querySelectorAll('li.open').forEach(openLi => {
+        openLi.classList.remove('open');
+        openLi.querySelector('.link').setAttribute('aria-expanded', 'false');
+        openLi.querySelector('.submenu').style.display = 'none';
+      });
+
+      // 打开当前
+      if (!isOpen) {
+        li.classList.add('open');
+        link.setAttribute('aria-expanded', 'true');
+        submenu.style.display = 'block';
+      }
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "手风琴",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "自定义样式"
+    },
+    {
+      "type": "text",
+      "id": "position_2",
+      "label": "页面定位Id输入:"
+    },
+    {
+      "type": "color",
+      "id": "p_bg_color",
+      "label": "背景颜色",
+      "default": "#9db8d6"
+    },
+    {
+      "type": "range",
+      "id": "p_padding",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "上下边距",
+      "default": 20
+    },
+    {
+      "type": "text",
+      "id": "head-suheadr",
+      "label": "标题",
+      "default": "Shipping"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "section",
+      "name": "模块",
+      "settings": [
+        {
+          "type": "text",
+          "id": "head-title",
+          "label": "标题",
+          "default": "How much does it cost to ship in the UnitedStates?"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "内容",
+          "default": "<p>Enter text description information Enter text description information Enter text description information</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "content_1",
+          "label": "内容",
+          "default": "<p>Enter text description information Enter text description information Enter text description information</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "手风琴"
+    }
+  ]
+}
+{% endschema %}
