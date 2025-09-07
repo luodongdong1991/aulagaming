@@ -502,7 +502,7 @@
                                                         <label class="product-form__label {{ option_stock }}" for="option-quick-view-{{ product.id }}-{{ option.name }}-{{ forloop.index0 }}">
                                                             <span
                                                                 class="pattern"
-                                                                style="background-color: {{ value | split: ' ' | last | handle }};{% if enable_variant_image %}{% if swatch_type == 'metafields' %}{% if color_codes %} background: {{ background_color }};{% else %} background: url({{ background_image }}); background-size: cover;{% endif %}{% elsif has_metaobject and swatch_type == 'metaobjects' %}{% if has_image %}background: url({{ background_image }}); background-size: cover;{% else %}background: {{ background_color }};{% endif %}{% else %} background-image: url({{ background_image }});{% endif %}{% endif %}"
+                                                                style="background-color: {{ value | split: ' ' | last | handle }};{% if enable_variant_image %}{% if swatch_type == 'metafields' %}{% if color_codes %} background: {{ background_color }};{% else %} background: url({{ background_image }}); background-size: cover;{% endif %}{% elsif has_metaobject and swatch_type == 'metaobjects' %}{% if has_image %}background: url({{ background_image }}); background-size: cover;{% else %}background: {{ background_color }};{% endif %}{% else %} background-image: url({{  variant.image.src | product_img_url: '800x'  }});{% endif %}{% endif %}"
                                                             ></span>
                                                         </label>
                                                     {%- else -%}   
@@ -638,8 +638,8 @@
                             endfor
                         endif
                     -%}
-
-                    <div class="productView-perks">
+                    {% comment %} tinymce editor {% endcomment %}
+                    <div class="productView-perks" style="display:none;">
                         {%- if show_size_chart and has_size_chart -%}
                             <div class="productView-sizeChart">
                                 <a class="link link-underline" href="javascript:void(0)" data-open-size-chart-popup>
@@ -708,7 +708,7 @@
                                                         assign allowOutStockSale = false 
                                                     endif
                                                 -%}
-                                                <button type="submit" name="add" data-btn-addToCart data-available="{{ allowOutStockSale }}" class="product-form__submit button button--primary{% if first_inventory == 0 %} button-text-change{% else %}{% if show_subtotal_text %} button-text-change{% endif %}{% endif %}" id="product-add-to-cart">
+                                                <button style="border-radius:0 !important" type="submit" name="add" data-btn-addToCart data-available="{{ allowOutStockSale }}" class="product-form__submit button button--primary{% if first_inventory == 0 %} button-text-change{% else %}{% if show_subtotal_text %} button-text-change{% endif %}{% endif %}" id="product-add-to-cart">
                                                     {%- if first_inventory > 0 -%}
                                                         {%- if show_subtotal_text and subtotal_style == '2' -%}
                                                             {%- assign subtotal = subtotal | strip_html -%}
@@ -735,7 +735,7 @@
                                         {%- endif -%}
                                     </div>
                                 </div>
-                                {%- if settings.show_wishlist -%}
+                                {%- if settings.show_wishlist and false -%}
                                     <div class="productView-wishlist clearfix">
                                         <a role="link" aria-disabled="true" data-wishlist data-wishlist-handle="{{ product.handle }}" data-product-id="{{ product.id }}"><span class="visually-hidden">{{ 'wishlist.general.add' | t }}</span> {% render 'icon-heart' %}{% if settings.show_wishlist_full_icon %}{% render 'icon-heart-add-2' %}{% endif %}</a>
                                     </div>
