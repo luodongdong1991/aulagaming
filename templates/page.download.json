@@ -157,6 +157,16 @@
             "buy_link": "shopify:\/\/products\/aula-s75-pro"
           }
         },
+        "driver_item_iwbEFw": {
+          "type": "driver_item",
+          "name": "S98 Pro",
+          "settings": {
+            "driver_image": "shopify:\/\/shop_images\/s98profen_WH_850x850px_0bf0256d-08b8-4871-8d17-c2a554ee99d1.webp",
+            "driver_name": "S98 Pro",
+            "driver_link": "",
+            "buy_link": "shopify:\/\/products\/aula-s98-pro-wireless-mechanical-keyboard-smart-screen-knob-tri-mode-bt5-0-usb-c-2-4ghz-creamy-keyboard-pre-lubed-linear-switches-hot-swappable-rgb-backlit-computer-gaming-keyboards"
+          }
+        },
         "driver_item_6gkKUj": {
           "type": "driver_item",
           "name": "F108",
@@ -265,6 +275,7 @@
         "driver_item_Q39FUL",
         "driver_item_gwxtJX",
         "driver_item_BiAfBJ",
+        "driver_item_iwbEFw",
         "driver_item_6gkKUj",
         "driver_item_FtGUgY",
         "driver_item_HKe878",

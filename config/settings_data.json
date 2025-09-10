@@ -780,13 +780,13 @@
         "disabled": false,
         "settings": {
           "button_color": "#000000",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
           "button_text": "support",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "greeting_message": "👋 \"Hi there! If you have any questions, feel free to send us a message 💌 We’ll get back to you ⏱️ right away — always happy to help! 🌟"
+          "greeting_message": "👋 Hi there! If you have any questions, feel free to send us a message 💌 We’ll reply to you as soon as we see your message ⏱️ — always happy to help! 🌟"
         }
       }
     }
