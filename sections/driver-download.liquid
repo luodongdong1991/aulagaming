@@ -64,7 +64,7 @@
         <div class="driver-buttons">
           {% if block.settings.driver_link %}
             <a href="{{ block.settings.driver_link }}" class="btn download-btn" target="_blank">Download</a>
-          {% elsif if block.settings.driver_link_2 %}
+          {% elsif block.settings.driver_link_2 %}
             <a href="{{ block.settings.driver_link_2 }}" class="btn download-btn" target="_blank">Download</a>
           {% endif %}
           {% if block.settings.buy_link %}
