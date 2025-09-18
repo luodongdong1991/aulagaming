@@ -28,12 +28,17 @@
         {
           "type": "url",
           "id": "driver_link",
-          "label": "Download Link"
+          "label": "驱动下载链接"
+        },
+        {
+          "type": "text",
+          "id": "driver_link_2",
+          "label": "驱动下载链接_补充"
         },
         {
           "type": "url",
           "id": "buy_link",
-          "label": "View Link"
+          "label": "查看链接"
         }
       ]
     }
@@ -59,6 +64,8 @@
         <div class="driver-buttons">
           {% if block.settings.driver_link %}
             <a href="{{ block.settings.driver_link }}" class="btn download-btn" target="_blank">Download</a>
+          {% elsif if block.settings.driver_link_2 %}
+            <a href="{{ block.settings.driver_link_2 }}" class="btn download-btn" target="_blank">Download</a>
           {% endif %}
           {% if block.settings.buy_link %}
             <a href="{{ block.settings.buy_link }}" class="btn buy-btn" target="_blank">View</a>
