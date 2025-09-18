@@ -18,7 +18,7 @@
         "announcement_QwLpai": {
           "type": "announcement",
           "settings": {
-            "text": "🎉 New Site Launch! Up to 30% OFF Storewide!",
+            "text": "🎉 New Site Launch! Lowest Price Ever!",
             "btn_color": "#ffffff",
             "btn_border_color": "#ffffff",
             "btn_bg_color": "#ff691a",
@@ -28,7 +28,7 @@
         "announcement_wiTdya": {
           "type": "announcement",
           "settings": {
-            "text": "💥 Get $15 OFF on orders over $100",
+            "text": "Extra 10% Off When You Get 2",
             "btn_color": "#f84248",
             "btn_border_color": "#ffffff",
             "btn_bg_color": "#ffffff",
@@ -38,7 +38,7 @@
         "announcement_7EL3Hr": {
           "type": "announcement",
           "settings": {
-            "text": "🎁 Spin the Wheel for Big Prizes!",
+            "text": "🎁Spin Wheel Offer Ends Soon!",
             "btn_color": "#f84248",
             "btn_border_color": "#ffffff",
             "btn_bg_color": "#ffffff",

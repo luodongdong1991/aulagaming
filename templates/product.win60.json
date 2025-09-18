@@ -91,11 +91,11 @@
           "name": "倒计时折扣码",
           "settings": {
             "enable_banner": true,
-            "banner_title": "Enjoy 8% off your first order!",
+            "banner_title": "Enjoy 5% off your first order!",
             "banner_subtitle_prefix": "Use code",
             "promo_code": "newuser",
             "banner_subtitle_suffix": "for an extra",
-            "discount_text": "8% OFF",
+            "discount_text": "5% OFF",
             "show_sun_icon": false,
             "sun_icon": "☀️",
             "show_palm_icon": false,
