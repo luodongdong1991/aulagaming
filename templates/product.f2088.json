@@ -90,7 +90,7 @@
           "type": "summer-sale-banner",
           "name": "倒计时折扣码",
           "settings": {
-            "enable_banner": true,
+            "enable_banner": false,
             "banner_title": "Enjoy 5% off your first order!",
             "banner_subtitle_prefix": "Use code",
             "promo_code": "newuser",
@@ -115,7 +115,7 @@
             "time_unit_radius": 6,
             "button_radius": 8,
             "show_decorations": false,
-            "selling_points": "<ul><li><strong>Full-size 108-key layout<\/strong><\/li><li><strong>Hot-swappable linear switches<\/strong><\/li><li><strong>Tri-mode Bluetooth\/2.4G\/USB-C<\/strong><\/li><li><strong>South-facing RGB lighting<\/strong><\/li><li><strong>Metal volume control knob<\/strong><\/li><li><strong>Gasket mount for comfort<\/strong><\/li><\/ul>",
+            "selling_points": "<ul><li><strong>Full-size 108-key layout<\/strong><\/li><li><strong>Hot-swappable linear switches<\/strong><\/li><li><strong>USB-C Wired<\/strong><\/li><li><strong>South-facing RGB lighting<\/strong><\/li><li><strong>Metal volume control knob<\/strong><\/li><li><strong>Gasket mount for comfort<\/strong><\/li><\/ul>",
             "bg_color": "#ffffff",
             "bg_text": "#232323"
           }

@@ -13,7 +13,7 @@
             "spacing_tb": 75,
             "custom_width": false,
             "width": "",
-            "section_title": "Join now to get 8% off your first order!",
+            "section_title": "Join now to get 5% off your first order!",
             "special_text": "",
             "section_title_font_size": 20,
             "section_title_font_size_mb": 20,
@@ -218,7 +218,7 @@
       "settings": {
         "container": "1570",
         "padding_full_width": 0,
-        "type_footer_heading": "font_1",
+        "type_footer_heading": "font_2",
         "type_footer_heading_font_size": 16,
         "type_footer_heading_line_height": 20,
         "type_footer_heading_font_weight": "600",

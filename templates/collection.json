@@ -138,32 +138,10 @@
             "heading": "Size"
           },
           "type": "filter"
-        },
-        "8472dad8-3289-4746-8b7f-e6ebe3175dd5": {
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_67e3da5a-9691-4253-aaa1-02243a70d460.webp",
-            "fontsize_title": 24,
-            "fontsize_des": 12,
-            "title_color": "#232323",
-            "desc_alignment": "left",
-            "link": "",
-            "page_title_alignment": "left",
-            "margin_top_des": 12,
-            "desc_pos": "top",
-            "page_title_text_transform": "none",
-            "show_image": true,
-            "margin_bottom": 25,
-            "des_color": "#3c3c3c",
-            "show_title": true,
-            "margin_top_title": 30,
-            "show_collection_description": true
-          },
-          "type": "lookbook"
         }
       },
       "type": "main-collection-product-grid",
       "block_order": [
-        "8472dad8-3289-4746-8b7f-e6ebe3175dd5",
         "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
         "category_YaVWB7",
         "ce351101-2c54-4627-b740-b2c592067b4a",

@@ -90,7 +90,7 @@
           "type": "summer-sale-banner",
           "name": "倒计时折扣码",
           "settings": {
-            "enable_banner": true,
+            "enable_banner": false,
             "banner_title": "Enjoy 5% off your first order!",
             "banner_subtitle_prefix": "Use code",
             "promo_code": "newuser",

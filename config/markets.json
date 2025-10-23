@@ -1,3 +1,7 @@
 {
-  "markets": {}
+  "markets": {
+    "us": {
+      "parent": "@default"
+    }
+  }
 }

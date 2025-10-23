@@ -28,17 +28,7 @@
         "announcement_wiTdya": {
           "type": "announcement",
           "settings": {
-            "text": "Extra 10% Off When You Get 2",
-            "btn_color": "#f84248",
-            "btn_border_color": "#ffffff",
-            "btn_bg_color": "#ffffff",
-            "btn_bg_color_gradient": ""
-          }
-        },
-        "announcement_7EL3Hr": {
-          "type": "announcement",
-          "settings": {
-            "text": "🎁Spin Wheel Offer Ends Soon!",
+            "text": "Extra 8% Off When You Get 2",
             "btn_color": "#f84248",
             "btn_border_color": "#ffffff",
             "btn_bg_color": "#ffffff",
@@ -49,8 +39,7 @@
       "block_order": [
         "announcement_EFBRaw",
         "announcement_QwLpai",
-        "announcement_wiTdya",
-        "announcement_7EL3Hr"
+        "announcement_wiTdya"
       ],
       "settings": {
         "layout": "slider",

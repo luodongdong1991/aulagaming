@@ -95,7 +95,7 @@
             "banner_subtitle_prefix": "Use code",
             "promo_code": "newuser",
             "banner_subtitle_suffix": "for an extra",
-            "discount_text": "8% OFF",
+            "discount_text": "5% OFF",
             "show_sun_icon": false,
             "sun_icon": "☀️",
             "show_palm_icon": false,
@@ -115,7 +115,7 @@
             "time_unit_radius": 6,
             "button_radius": 8,
             "show_decorations": false,
-            "selling_points": "<ul><li><strong>75% layout, 84 keys<\/strong><\/li><li><strong>Hot-swappable Reaper\/Greywood switches<\/strong><\/li><li><strong>Bluetooth, 2.4G, USB-C<\/strong><\/li><li><strong>South-facing RGB effects<\/strong><\/li><li><strong>Metal volume\/light control knob<\/strong><\/li><li><strong>Gasket-mounted, quiet typing<br\/><\/strong><\/li><\/ul>",
+            "selling_points": "<ul><li><strong>96% 98 Keys Wireless Gasket RGB Gaming Keyboard<\/strong><\/li><li><strong>3-Mode Compact Mechanical Keyboard<\/strong><\/li><li><strong>Dedicated Knob Control<\/strong><\/li><li><strong>Sound Absorbing Pads<\/strong><\/li><li><strong>Hot-Swap Socket<\/strong><\/li><li><strong>Custom Hi-Fi Linear Switch<\/strong><\/li><\/ul>",
             "bg_color": "#ffffff",
             "bg_text": "#232323"
           }
@@ -225,8 +225,8 @@
             "svg_imag_1": "shopify:\/\/shop_images\/like.png",
             "text_color": "#333333",
             "svg_imag_2": "shopify:\/\/shop_images\/city-one.png",
-            "title_1": "30-Day Money-Back Guarantee | 2-Year Warranty",
-            "content_1": "<p>If the product encounters an issue and becomes unusable within 365 days of delivery, you will receive a free brand-new replacement.<br\/><br\/><em>*2-Year Warranty Exclusive to AULAGAMING Official Store Orders.<\/em><\/p>",
+            "title_1": "15-Day Money-Back Guarantee | 2-Year Warranty",
+            "content_1": "<p>If the product encounters an issue and becomes unusable within 15 days of delivery, you will receive a free brand-new replacement.<\/p><p><em>*2-Year Warranty Exclusive to Official Store Orders.<\/em><\/p>",
             "title_2": "Shipped from the nearest warehouse to you",
             "content_2": "<p>We strive to ship all orders from the warehouse closest to your delivery address to ensure the fastest possible delivery time.<\/p><p><em>Delivery times may vary based on product availability and your location.<\/em><\/p>"
           }
@@ -466,7 +466,7 @@
         "show_subtotal": true,
         "subtotal_style": "1",
         "show_sticky_add_to_cart": true,
-        "sticky_atc_layout": "2",
+        "sticky_atc_layout": "1",
         "enable_sticky_add_to_cart_always_mobile": true,
         "show_sticky_vendor": false,
         "show_quick_order_list": false,
@@ -554,9 +554,10 @@
         "nav_item_wkh4Cj",
         "nav_item_ENi9wi"
       ],
+      "disabled": true,
       "name": "header-tabs",
       "settings": {
-        "product_title": "AULA F87 Pro Side Printed PBT Keycaps Keyboard",
+        "product_title": "Eisa K686 Pro Se Anime Keyboard",
         "add_to_cart_text": "Add To Cart",
         "add_to_cart_url": "",
         "buy_now_text": "Buy Now",
@@ -567,6 +568,7 @@
     },
     "jewelry_hero_frmBWB": {
       "type": "jewelry-hero",
+      "disabled": true,
       "name": "Jewelry Hero",
       "settings": {
         "position_2": "overview",
@@ -574,104 +576,8 @@
         "description": "",
         "button_text": "",
         "button_link": "",
-        "background_image_desktop": "shopify:\/\/shop_images\/974b5c64-a92a-4cfe-8752-12acd8781150.__CR0_0_1464_600_PT0_SX1464_V1____WH_1740x640px.webp",
-        "background_image_mobile": "shopify:\/\/shop_images\/1_c05a2fb8-a74a-4d1b-91d2-72a067ceaaf5.webp",
-        "text_color": "#333333",
-        "text_bg_color": "rgba(0,0,0,0)",
-        "text_align": "left",
-        "text_position_desktop": "top-right",
-        "text_width_desktop": 40,
-        "text_margin_top_desktop": 100,
-        "text_margin_right_desktop": 50,
-        "text_margin_bottom_desktop": 100,
-        "text_margin_left_desktop": 50,
-        "subtitle_font_size_desktop": 20,
-        "description_font_size_desktop": 16,
-        "text_position_mobile": "top-right",
-        "text_width_mobile": 90,
-        "text_margin_top_mobile": 50,
-        "text_margin_right_mobile": 20,
-        "text_margin_bottom_mobile": 50,
-        "text_margin_left_mobile": 20,
-        "subtitle_font_size_mobile": 18,
-        "description_font_size_mobile": 14
-      }
-    },
-    "jewelry_hero_qWkwAU": {
-      "type": "jewelry-hero",
-      "name": "Jewelry Hero",
-      "settings": {
-        "position_2": "overview",
-        "subtitle": "",
-        "description": "",
-        "button_text": "",
-        "button_link": "",
-        "background_image_desktop": "shopify:\/\/shop_images\/3b7c06c9-1ae9-40d5-8a32-2ee4bd319bf0.__CR0_0_1464_600_PT0_SX1464_V1____WH_1740x640px.webp",
-        "background_image_mobile": "shopify:\/\/shop_images\/4_f650f32a-82f6-4974-af66-23ec2b0a5133.webp",
-        "text_color": "#333333",
-        "text_bg_color": "rgba(0,0,0,0)",
-        "text_align": "left",
-        "text_position_desktop": "top-right",
-        "text_width_desktop": 40,
-        "text_margin_top_desktop": 100,
-        "text_margin_right_desktop": 50,
-        "text_margin_bottom_desktop": 100,
-        "text_margin_left_desktop": 50,
-        "subtitle_font_size_desktop": 20,
-        "description_font_size_desktop": 16,
-        "text_position_mobile": "top-right",
-        "text_width_mobile": 90,
-        "text_margin_top_mobile": 50,
-        "text_margin_right_mobile": 20,
-        "text_margin_bottom_mobile": 50,
-        "text_margin_left_mobile": 20,
-        "subtitle_font_size_mobile": 18,
-        "description_font_size_mobile": 14
-      }
-    },
-    "jewelry_hero_6bJmct": {
-      "type": "jewelry-hero",
-      "name": "Jewelry Hero",
-      "settings": {
-        "position_2": "overview",
-        "subtitle": "",
-        "description": "",
-        "button_text": "",
-        "button_link": "",
-        "background_image_desktop": "shopify:\/\/shop_images\/3e28771c-ee45-49f9-a980-30b7c7d4290d.__CR0_0_1464_600_PT0_SX1464_V1____WH_1740x640px.webp",
-        "background_image_mobile": "shopify:\/\/shop_images\/2_4eb8b885-54a7-40a2-ae84-40ce75649b74.webp",
-        "text_color": "#333333",
-        "text_bg_color": "rgba(0,0,0,0)",
-        "text_align": "left",
-        "text_position_desktop": "top-right",
-        "text_width_desktop": 40,
-        "text_margin_top_desktop": 100,
-        "text_margin_right_desktop": 50,
-        "text_margin_bottom_desktop": 100,
-        "text_margin_left_desktop": 50,
-        "subtitle_font_size_desktop": 20,
-        "description_font_size_desktop": 16,
-        "text_position_mobile": "top-right",
-        "text_width_mobile": 90,
-        "text_margin_top_mobile": 50,
-        "text_margin_right_mobile": 20,
-        "text_margin_bottom_mobile": 50,
-        "text_margin_left_mobile": 20,
-        "subtitle_font_size_mobile": 18,
-        "description_font_size_mobile": 14
-      }
-    },
-    "jewelry_hero_D9UeRb": {
-      "type": "jewelry-hero",
-      "name": "Jewelry Hero",
-      "settings": {
-        "position_2": "overview",
-        "subtitle": "",
-        "description": "",
-        "button_text": "",
-        "button_link": "",
-        "background_image_desktop": "shopify:\/\/shop_images\/6cc90ee8-80b8-403d-9719-26f733af6032.__CR0_0_1464_600_PT0_SX1464_V1____WH_1740x640px.webp",
-        "background_image_mobile": "shopify:\/\/shop_images\/3_a3f0bf24-8e44-455a-a4e3-b45b4ab802cd.webp",
+        "background_image_desktop": "shopify:\/\/shop_images\/F75_f34a0b01-1597-46d1-9452-022461bd55e5.webp",
+        "background_image_mobile": "shopify:\/\/shop_images\/F75_f062aa8b-1359-406a-a681-f484c823d595.webp",
         "text_color": "#333333",
         "text_bg_color": "rgba(0,0,0,0)",
         "text_align": "left",
@@ -784,7 +690,7 @@
           "type": "section",
           "settings": {
             "head-title": "Features",
-            "content": "<p>Smooth and quiet typing experience<\/p><p>Supports up to 5 device connections wirelessly<\/p><p>N-Key rollover, anti-ghosting, Win key lock<\/p><p>RGB lighting with music sync and software customization<\/p><p>Compatible with Windows, macOS, iOS, Android<\/p>",
+            "content": "<p>96% 98 Keys Wireless Keyboard<\/p><p>Custom Hi-Fi Linear Switch<\/p><p>Hot-Swap Socket<\/p><p>Redragon Gasket Out<\/p><p>Dedicated Knob Control<\/p><p>Sound Absorbing Pads<\/p><p>Software Supported<\/p>",
             "content_1": ""
           }
         },
@@ -792,7 +698,7 @@
           "type": "section",
           "settings": {
             "head-title": "Design",
-            "content": "<p>Compact 75% form factor<\/p><p>Metal knob for easy media and lighting adjustments<\/p><p>Soft gasket mount for enhanced typing comfort<br\/><br\/><br\/><br\/><br\/><br\/><br\/><br\/><\/p>",
+            "content": "<p>Connectivity:<\/p><p>Keyboard Size:<\/p><p>Hot Swappable:<\/p><p>Matrix:<br\/><br\/><br\/><br\/><br\/><br\/><br\/><br\/><\/p>",
             "content_1": ""
           }
         },
@@ -800,7 +706,7 @@
           "type": "section",
           "settings": {
             "head-title": "Package Included",
-            "content": "<p>AULA F87 Pro Keyboard ×1<\/p><p>USB-C Cable ×1<\/p><p>2.4G Wireless Dongle ×1<\/p><p>Keycap & Switch Puller ×1<\/p><p>Extra Switches ×2<\/p><p>User Manual ×1<br\/><br\/><\/p>",
+            "content": "<p>1 x AULA F98x Keyboard<br\/>1 x Detachable USB Type-C Cable<br\/>1 x Nano Receiver<br\/>1 x Keycap & Switch Puller<br\/>2 x Spare Switches<br\/>1 x User Manual<br\/><br\/><\/p>",
             "content_1": ""
           }
         },
@@ -808,7 +714,7 @@
           "type": "section",
           "settings": {
             "head-title": "Software Download",
-            "content": "<p><a href=\"https:\/\/bit.ly\/m\/AULA\" target=\"_blank\" title=\"https:\/\/bit.ly\/m\/AULA driver\">AULA Technology and Product Driven<\/a><\/p>",
+            "content": "<p><a href=\"\/pages\/download\" target=\"_blank\" title=\"Download\">AULA Technology and Product Driven<\/a><\/p>",
             "content_1": ""
           }
         }
@@ -1086,9 +992,6 @@
     "main",
     "header_tabs_bPgGWJ",
     "jewelry_hero_frmBWB",
-    "jewelry_hero_qWkwAU",
-    "jewelry_hero_6bJmct",
-    "jewelry_hero_D9UeRb",
     "feature_with_image_aD83rQ",
     "feature_with_image_GWRCnG",
     "feature_with_image_bHrMND",
